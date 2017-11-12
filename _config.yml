@@ -17,14 +17,14 @@ nickname: anu
 bio: 'Software Developer, GSoCer, Women Tech Enthusiast'
 location: 'Delhi, IN'
 
-url: 'http://anumittal.in'
+url: 'http://anumittal.in/'
 image: 'assets/images/anu_profile.jpg'
 
-short_url: 'anumittal.in'
+short_url: 'anumittal.in/'
 google_analytics: UA-xxxxxxxx-x
 disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: ''
+baseurl: '/'
 
 # Permalinks
 permalink: /:title
