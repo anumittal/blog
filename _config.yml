@@ -23,7 +23,7 @@ short_url: 'anumittal.in/'
 google_analytics: UA-xxxxxxxx-x
 disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: '/'
+baseurl: /
 
 # Permalinks
 permalink: /:title
