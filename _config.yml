@@ -7,7 +7,7 @@ paginate: 5
 language: 'en-us'
 
 # Website info
-name: 'Life is Exploring'
+name: 'Life is about Exploring'
 description: 'Personal blog'
 
 # Author's info
@@ -21,8 +21,8 @@ url: 'http://anumittal.in/'
 image: 'assets/images/anu_profile.jpg'
 
 short_url: 'anumittal.in/'
-google_analytics: UA-xxxxxxxx-x
-disqus: username
+google_analytics: UA-109855438-1
+disqus: anumittal
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: ''
 
