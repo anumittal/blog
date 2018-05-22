@@ -12,6 +12,24 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>Meaningful commit messages</title>
+	  <link>//meaningful-commit-messages</link>
+	  <author>Anu Mittal</author>
+	  <pubDate>2018-04-02T18:40:00+00:00</pubDate>
+	  <guid>//meaningful-commit-messages</guid>
+	  <description><![CDATA[
+	     <p>A short note, your git commit messages should start with “Fix” or “Add” instead of “Fixed” or “Added”, which fits well in :</p>
+
+<p>When merged/applied, this patch/commit will “<commit message="">"</commit></p>
+
+<p>e.g. When merged, this commit will “fix the photo-viewer crash”</p>
+
+<p>Reference : https://github.com/erlang/otp/wiki/writing-good-commit-messages</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>Learning GIT.</title>
 	  <link>//learning-git</link>
 	  <author>Anu Mittal</author>

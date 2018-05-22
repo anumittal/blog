@@ -12,6 +12,24 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>Meaningful commit messages</title>
+	  <link>//meaningful-commit-messages</link>
+	  <author>Anu Mittal</author>
+	  <pubDate>2018-04-02T18:40:00+00:00</pubDate>
+	  <guid>//meaningful-commit-messages</guid>
+	  <description><![CDATA[
+	     <p>A short note, your git commit messages should start with “Fix” or “Add” instead of “Fixed” or “Added”, which fits well in :</p>
+
+<p>When merged/applied, this patch/commit will “<commit message="">"</commit></p>
+
+<p>e.g. When merged, this commit will “fix the photo-viewer crash”</p>
+
+<p>Reference : https://github.com/erlang/otp/wiki/writing-good-commit-messages</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>LinuxChix Meet up experience!</title>
 	  <link>//linuxchix-meet-up-experience</link>
 	  <author>Anu Mittal</author>
@@ -115,18 +133,6 @@
 	  <guid>//confkdein-2016-jaipur</guid>
 	  <description><![CDATA[
 	     <div dir="ltr"  trbidi="on"><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-JpjhlbLwJs8/VuFerN_6O_I/AAAAAAAAFfA/boZZ7SW0_Z4/s1600/KDE.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="265" src="https://2.bp.blogspot.com/-JpjhlbLwJs8/VuFerN_6O_I/AAAAAAAAFfA/boZZ7SW0_Z4/s400/KDE.jpg" width="400" /></a></div><br />5th-6th March 2016:<br />Thank you KDE India for inviting us to share our experience with 250+ budding developers and spreading the knowledge we have acquired during our projects. It was beyond just a meetup, we made many new friends and also learnt a lot from each other. I would also like to thank LNMIIT for hosting such an amazing conference and for the flawless hospitality. The event was very well planned and executed. I hope the participants find all the talks and workshops effective and implement them someday.<br />Though the conference was of only two days but I was able to create hundreds of &nbsp;memories as it was my first FOSS project, first talk, and my first ever meet up of such kind.All the speakers had something inspirational to the audience in their talk, who seem to be enthusiastic too, they had a keen interest in knowing more about things and asked many questions out of curiosity. The evening workshops were the most active session wherein the participants were demonstrated how to use KDE software and implement Git commands.And after the day's activity, the chit-chat sessions at the dinner table were the best part where we were able to know more about each other as how each of us worked on innovative ideas and made through it. At the end of the conference director of LNMIIT presented each of us with a beautiful momento.<br />It was an unforgettable experience.I got to learn lots of things from this conference. I would like to thank each and every person connected with this conference for making it so special and would like to encourage all of my blog readers to participate in such events and contribute to FOSS projects. These are few things you cannot afford to miss. All you need is &nbsp;1.) interest 2.) idea 3.) amazing organization like KDE and bang! You are almost there.<br />Good Luck! ;)<br /><br /><br /></div>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>Learning GIT.</title>
-	  <link>//learning-git</link>
-	  <author>Anu Mittal</author>
-	  <pubDate>2016-02-23T18:16:00+00:00</pubDate>
-	  <guid>//learning-git</guid>
-	  <description><![CDATA[
-	     <div dir="ltr"  trbidi="on"><div style="margin-bottom: .0001pt; margin: 0in;"><span style="font-family: &quot;georgia&quot; , &quot;serif&quot;;">Follow&nbsp;<span style="background-color: white;"><a href="http://rogerdudler.github.io/git-guide/" target="_blank"><span style="color: #6aa84f;">http://rogerdudler.github.io/git-guide/</span></a><span style="color: #6aa84f;">&nbsp;</span></span>in order to get familiarized with the basics of git commands in the easiest manner.</span></div><div style="margin: 0in 0in 0.0001pt;"><br /></div><div style="margin: 0in 0in 0.0001pt;"><span style="font-family: &quot;georgia&quot; , &quot;serif&quot;;">In order to know more about version control and history of git you can go through<br /><a href="https://git-scm.com/book/en/v1/Getting-Started" target="_blank"><span style="color: #6aa84f;">https://git-scm.com/book/en/v1/Getting-Started</span></a>&nbsp;</span><br /><span style="font-family: &quot;georgia&quot; , &quot;serif&quot;;"><br /></span><span style="font-family: &quot;georgia&quot; , serif;">Git allows more than one person to safely work on the same project without interfering with each other's work.</span><br /><span style="font-family: &quot;georgia&quot; , serif;"><br /></span></div><div style="margin: 0in 0in 0.0001pt;"><span style="font-family: &quot;georgia&quot; , &quot;serif&quot;;">Implement these commands by first creating an account on&nbsp;<a href="https://github.com/" style="font-family: Georgia, 'Times New Roman', serif;" target="_blank"><span style="color: #6aa84f;">https://github.com/</span></a>&nbsp;and pushing any of your own projects.You can then play with commands, just make sure you are not messing up with the master branch. :D</span></div><div style="margin: 0in 0in 0.0001pt;"><br /></div><div style="margin: 0in 0in 0.0001pt;"><span style="color: #ffe599; font-family: &quot;georgia&quot; , &quot;serif&quot;;"><a href="https://www.unleashed-technologies.com/blog/2014/08/01/what-github-and-how-can-it-benefit-your-development-team" target="_blank">Why GitHub?</a></span></div><div style="margin: 0in 0in 0.0001pt;"><br /></div><div style="margin: 0in 0in 0.0001pt;"><span style="font-family: &quot;georgia&quot; , &quot;serif&quot;;">Video tutorials :&nbsp;<a href="https://git-scm.com/videos" target="_blank"><span style="color: #6aa84f;">https://git-scm.com/videos</span></a></span></div><div style="margin: 0in 0in 0.0001pt;"><span style="font-family: &quot;georgia&quot; , &quot;times new roman&quot; , serif;"><br /></span></div><div style="margin: 0in 0in 0.0001pt;"><span style="font-family: &quot;georgia&quot; , &quot;times new roman&quot; , serif;">Good Luck and keep sharing your code ;)&nbsp;</span></div><br /><div class="MsoNormal"><br /></div></div>
 
 	  ]]></description>
 	</item>
