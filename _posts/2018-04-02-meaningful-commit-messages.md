@@ -11,10 +11,10 @@ tags:
 
 ---
 
-A short note, your git commit messages should start with "Fix" or "Add" instead of "Fixed" or "Added", which fits well in :
+A short note, your git commit messages should start with `Fix` or `Add` instead of `Fixed` or `Added`, which fits well in :
 
-When merged/applied, this patch/commit will "<commit message>"
+When merged/applied, this patch/commit will `<commit message>`
 
-e.g. When merged, this commit will "fix the photo-viewer crash"
+Example: When merged, this commit will "fix the photo-viewer crash"
 
-Reference : https://github.com/erlang/otp/wiki/writing-good-commit-messages
+Reference : [https://github.com/erlang/otp/wiki/writing-good-commit-messages](https://github.com/erlang/otp/wiki/writing-good-commit-messages)
