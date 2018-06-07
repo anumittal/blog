@@ -6,6 +6,9 @@ logo: 'assets/images/ghost.png'
 current: about
 ---
 
-I am a software developer at Zomato. I started contributing in KDE in 2014 and did my GSoC 2016 project under it.
+I am Anu Mittal, a **Software Developer** in an Indian startup company, [Zomato](https://www.zomato.com/ncr). I completed my bachelors in computer science in 2016. A FOSS enthusiast, I started its journey in 2014 with [KDE](https://www.kde.org/) involved in programs like Season of KDE '14 and Google Summer of Code '16 as a student developer.
+I've also been a speaker at various tech conferences sharing my experiences and work in both open source and KDE.
 
-This is my personal blog, Life is Exploring. So let's begin!!
+When not at work, you can find me: traveling, clicking pictures, dancing or sleeping :D
+
+Instagram handle: [a_nu_view](https://www.instagram.com/a_nu_view/)
