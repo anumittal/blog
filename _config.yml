@@ -8,13 +8,13 @@ language: 'en-us'
 
 # Website info
 name: 'Life is about Exploring'
-description: 'Personal blog'
+description: 'Personal blogs'
 
 # Author's info
 author: 'Anu Mittal'
 # edit 'categories' in the front matter of every post to match this username
 nickname: anu
-bio: 'Software Developer, GSoCer, Women Tech Enthusiast'
+bio: 'Software Developer, GSoCer, Open Source Tech Enthusiast'
 location: 'Delhi, IN'
 
 url: 'http://anumittal.in/'
