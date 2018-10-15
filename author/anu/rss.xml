@@ -12,6 +12,39 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>Akademy 2018, Vienna</title>
+	  <link>//akademy-vienna</link>
+	  <author>Anu Mittal</author>
+	  <pubDate>2018-10-02T18:40:00+00:00</pubDate>
+	  <guid>//akademy-vienna</guid>
+	  <description><![CDATA[
+	     <p>This year Akademy (an annual world summit of KDE) was held in a beautiful city Vienna, Europe during the late second and third week of August.</p>
+
+<p>Akademy like every year had many interesting talks and bofs scheduled</p>
+
+<p>My talk was scheduled on the first day of the event where I talked on Kontainerzing KDE.</p>
+
+<p>The talk began with a general introduction to Containerization technologies and why we need it. Followed by how we have used Docker and flatpak at KDE.</p>
+
+<p>The presentation is available <a href="https://docs.google.com/presentation/d/1LdtW9T0pT2t6RS0c0X7qbXzhjT1v8GvFPARuBtlCGoY/edit?usp=sharing">here</a></p>
+
+<p>Summary of each day at Akademy:
+Day 1: https://dot.kde.org/2018/08/12/akademy-2018-day-1
+Day 2: https://dot.kde.org/2018/08/13/akademy-2018-day-2
+Day 3: https://dot.kde.org/2018/08/14/akademy-2018-monday-bof-wrapup
+Day 4: https://dot.kde.org/2018/08/14/akademy-2018-tuesday-bof-wrapup</p>
+
+<p>It was a great experience to meet active contributor of KDE all around the globe and learn more about the insights. During the KDE India bof, we discussed how we can get more contributors on board and get the most out of conf.kde.in 2019.</p>
+
+<p>Looking forward to seeing more contributors in India in the conf.kde.in next year.</p>
+
+<p>PS. Call for Hosts for Akademy 2019 is still open. For more, check https://dot.kde.org/2018/05/15/akademy-2019-call-hosts</p>
+
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>Meaningful commit messages</title>
 	  <link>//meaningful-commit-messages</link>
 	  <author>Anu Mittal</author>
@@ -121,18 +154,6 @@
 	  <guid>//google-summer-of-code2016</guid>
 	  <description><![CDATA[
 	     <div dir="ltr"  trbidi="on"><div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-9V46SuKNBuI/VxuNy1VRYSI/AAAAAAAAFyo/qL5mPtq48PstUvQSXFTxJL-XrhJrbJB5QCLcB/s1600/google.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="171" src="https://3.bp.blogspot.com/-9V46SuKNBuI/VxuNy1VRYSI/AAAAAAAAFyo/qL5mPtq48PstUvQSXFTxJL-XrhJrbJB5QCLcB/s320/google.png" width="320" /></a></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div dir="ltr" style="margin-bottom: 0pt; margin-top: 0pt;"><span style="font-family: &quot;arial&quot;; font-size: 14.6667px; line-height: 1.38; white-space: pre-wrap;">So, finally, the wait is over. The result of GSoC selections is out and<b> Voila!</b> my proposal has been accepted and is now a GSoC project. </span><span style="font-family: &quot;arial&quot;;"><span style="font-size: 14.6667px; line-height: 20.24px; white-space: pre-wrap;">I would like to thank KDE community, my mentor, and co-mentors for their support and giving me an opportunity to be a part of this programme. I will be working on the project <b><a href="http://labplot.sourceforge.net/" target="_blank">LabPlot </a></b></span></span><span style="font-family: &quot;arial&quot;; font-size: 14.6667px; line-height: 20.24px; white-space: pre-wrap;"><b><a href="http://labplot.sourceforge.net/" target="_blank">(KDEdu)</a></b></span><span style="font-family: &quot;arial&quot;; font-size: 14.6667px; line-height: 20.24px; white-space: pre-wrap;"> which is a KDE-application for interactive graphing and analysis of scientific data. LabPlot provides an easy way to create, manage and edit plots.</span></div><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="font-family: &quot;arial&quot;; font-size: 14.6667px; line-height: 1.38; white-space: pre-wrap;">Beginning with the first phase,&nbsp;</span></div><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; font-family: &quot;arial&quot;; font-size: 14.6667px; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><b><br /></b></span></div><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; font-family: &quot;arial&quot;; font-size: 14.6667px; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><b>Community bonding period (23rd April &nbsp;to 22rd May)</b></span></div><div dir="ltr" style="margin-bottom: 0pt; margin-top: 0pt;"><span style="font-family: &quot;arial&quot;;"><span style="font-size: 14.6667px; line-height: 20.24px; white-space: pre-wrap;">I would complete the tasks picked earlier in the first week so that I can start working on my project then after. Discussing the complete flow and becoming more familiar with the code style, naming conventions, and project’s requirement will be the major tasks during this phase.  Looking forward to an amazing coding summers. Cheers!    <b>Einstein: "Everything should be made as simple as possible, but not simpler."</b></span></span></div></div>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>conf.KDE.in 2016, Jaipur</title>
-	  <link>//confkdein-2016-jaipur</link>
-	  <author>Anu Mittal</author>
-	  <pubDate>2016-03-10T18:52:00+00:00</pubDate>
-	  <guid>//confkdein-2016-jaipur</guid>
-	  <description><![CDATA[
-	     <div dir="ltr"  trbidi="on"><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-JpjhlbLwJs8/VuFerN_6O_I/AAAAAAAAFfA/boZZ7SW0_Z4/s1600/KDE.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="265" src="https://2.bp.blogspot.com/-JpjhlbLwJs8/VuFerN_6O_I/AAAAAAAAFfA/boZZ7SW0_Z4/s400/KDE.jpg" width="400" /></a></div><br />5th-6th March 2016:<br />Thank you KDE India for inviting us to share our experience with 250+ budding developers and spreading the knowledge we have acquired during our projects. It was beyond just a meetup, we made many new friends and also learnt a lot from each other. I would also like to thank LNMIIT for hosting such an amazing conference and for the flawless hospitality. The event was very well planned and executed. I hope the participants find all the talks and workshops effective and implement them someday.<br />Though the conference was of only two days but I was able to create hundreds of &nbsp;memories as it was my first FOSS project, first talk, and my first ever meet up of such kind.All the speakers had something inspirational to the audience in their talk, who seem to be enthusiastic too, they had a keen interest in knowing more about things and asked many questions out of curiosity. The evening workshops were the most active session wherein the participants were demonstrated how to use KDE software and implement Git commands.And after the day's activity, the chit-chat sessions at the dinner table were the best part where we were able to know more about each other as how each of us worked on innovative ideas and made through it. At the end of the conference director of LNMIIT presented each of us with a beautiful momento.<br />It was an unforgettable experience.I got to learn lots of things from this conference. I would like to thank each and every person connected with this conference for making it so special and would like to encourage all of my blog readers to participate in such events and contribute to FOSS projects. These are few things you cannot afford to miss. All you need is &nbsp;1.) interest 2.) idea 3.) amazing organization like KDE and bang! You are almost there.<br />Good Luck! ;)<br /><br /><br /></div>
 
 	  ]]></description>
 	</item>

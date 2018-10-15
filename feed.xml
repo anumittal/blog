@@ -8,6 +8,21 @@
     
       
       <item>
+        <title>Akademy 2018, Vienna</title>
+        
+          <description>&lt;p&gt;This year Akademy (an annual world summit of KDE) was held in a beautiful city Vienna, Europe during the late second and third week of August.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 02 Oct 2018 18:40:00 +0000</pubDate>
+        <link>
+        http://anumittal.in//akademy-vienna</link>
+        <guid isPermaLink="true">http://anumittal.in//akademy-vienna</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Meaningful commit messages</title>
         
           <description>&lt;p&gt;A short note, your git commit messages should start with &lt;code class=&quot;highlighter-rouge&quot;&gt;Fix&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;Add&lt;/code&gt; instead of &lt;code class=&quot;highlighter-rouge&quot;&gt;Fixed&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;Added&lt;/code&gt;, which fits well in :&lt;/p&gt;
