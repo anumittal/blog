@@ -39,7 +39,7 @@ PS. Call for Hosts for Akademy 2019 is still open. For more, check https://dot.k
 
 
 [presentation]: https://docs.google.com/presentation/d/1LdtW9T0pT2t6RS0c0X7qbXzhjT1v8GvFPARuBtlCGoY/edit?usp=sharing
-[akademy-campus]: 'assets/images/campus
-[akademy-talks]: 'assets/images/AnuKDE'
-[akademy-docker]: 'assets/images/dockerPPT'
-[akademy-humans]: 'assets/images/akademy2018'
+[akademy-campus]: /assets/images/campus.JPG
+[akademy-talks]: /assets/images/AnuKDE.JPG
+[akademy-docker]: /assets/images/dockerPPT.png
+[akademy-humans]: /assets/images/akademy2018.jpg
