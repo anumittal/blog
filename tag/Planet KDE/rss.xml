@@ -12,6 +12,47 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>Akademy 2018, Vienna</title>
+	  <link>//akademy-vienna</link>
+	  <author>Anu Mittal</author>
+	  <pubDate>2018-10-02T18:40:00+00:00</pubDate>
+	  <guid>//akademy-vienna</guid>
+	  <description><![CDATA[
+	     <!--[Campus][akademy-campus]-->
+<p><img src="/assets/images/campus.JPG" alt="Campus" width="100%" />
+This year Akademy (an annual world summit of KDE) was held in a beautiful city Vienna, Europe during the late second and third week of August.</p>
+
+<p>Akademy like every year had many interesting talks and bofs scheduled</p>
+
+<!--[Akademy talks][akademy-talks]-->
+<p><img src="/assets/images/AnuKDE.JPG" alt="talks" width="100%" />
+My talk was scheduled on the first day of the event where I talked on Kontainerzing KDE.</p>
+
+<!--![Presentation on Docker][akademy-docker]-->
+<p><img src="/assets/images/dockerPPT.png" alt="dockerPPT" width="100%" />
+The talk began with a general introduction to Containerization technologies and why we need it. Followed by how we have used Docker and flatpak at KDE.</p>
+
+<p>The presentation is available <a href="https://docs.google.com/presentation/d/1LdtW9T0pT2t6RS0c0X7qbXzhjT1v8GvFPARuBtlCGoY/edit?usp=sharing">here</a></p>
+
+<p>Summary of each day at Akademy:
+Day 1: <a href="https://dot.kde.org/2018/08/12/akademy-2018-day-1">https://dot.kde.org/2018/08/12/akademy-2018-day-1</a>
+Day 2: <a href="https://dot.kde.org/2018/08/12/akademy-2018-day-2">https://dot.kde.org/2018/08/13/akademy-2018-day-2</a>
+Day 3: <a href="https://dot.kde.org/2018/08/14/akademy-2018-monday-bof-wrapup">https://dot.kde.org/2018/08/14/akademy-2018-monday-bof-wrapup</a>
+Day 4: <a href="https://dot.kde.org/2018/08/14/akademy-2018-tuesday-bof-wrapup">https://dot.kde.org/2018/08/14/akademy-2018-tuesday-bof-wrapup</a></p>
+
+<!--[Best part of Akademy][akademy-humans]-->
+<p><img src="/assets/images/akademy2018.jpg" alt="humans" width="100%" />
+It was a great experience to meet active contributor of KDE all around the globe and learn more about the insights. During the KDE India bof, we discussed how we can get more contributors on board and get the most out of conf.kde.in 2019.</p>
+
+<p>Looking forward to seeing more contributors in India in the conf.kde.in next year.</p>
+
+<p>PS. Call for Hosts for Akademy 2019 is still open. For more, check <a href="https://dot.kde.org/2018/05/15/akademy-2019-call-hosts">here</a></p>
+
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>LinuxChix Meet up experience!</title>
 	  <link>//linuxchix-meet-up-experience</link>
 	  <author>Anu Mittal</author>
@@ -115,18 +156,6 @@
 	  <guid>//confkdein-2016-jaipur</guid>
 	  <description><![CDATA[
 	     <div dir="ltr"  trbidi="on"><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-JpjhlbLwJs8/VuFerN_6O_I/AAAAAAAAFfA/boZZ7SW0_Z4/s1600/KDE.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="265" src="https://2.bp.blogspot.com/-JpjhlbLwJs8/VuFerN_6O_I/AAAAAAAAFfA/boZZ7SW0_Z4/s400/KDE.jpg" width="400" /></a></div><br />5th-6th March 2016:<br />Thank you KDE India for inviting us to share our experience with 250+ budding developers and spreading the knowledge we have acquired during our projects. It was beyond just a meetup, we made many new friends and also learnt a lot from each other. I would also like to thank LNMIIT for hosting such an amazing conference and for the flawless hospitality. The event was very well planned and executed. I hope the participants find all the talks and workshops effective and implement them someday.<br />Though the conference was of only two days but I was able to create hundreds of &nbsp;memories as it was my first FOSS project, first talk, and my first ever meet up of such kind.All the speakers had something inspirational to the audience in their talk, who seem to be enthusiastic too, they had a keen interest in knowing more about things and asked many questions out of curiosity. The evening workshops were the most active session wherein the participants were demonstrated how to use KDE software and implement Git commands.And after the day's activity, the chit-chat sessions at the dinner table were the best part where we were able to know more about each other as how each of us worked on innovative ideas and made through it. At the end of the conference director of LNMIIT presented each of us with a beautiful momento.<br />It was an unforgettable experience.I got to learn lots of things from this conference. I would like to thank each and every person connected with this conference for making it so special and would like to encourage all of my blog readers to participate in such events and contribute to FOSS projects. These are few things you cannot afford to miss. All you need is &nbsp;1.) interest 2.) idea 3.) amazing organization like KDE and bang! You are almost there.<br />Good Luck! ;)<br /><br /><br /></div>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>January- Time to pull up my socks.</title>
-	  <link>//january-time-to-pull-up-my-socks</link>
-	  <author>Anu Mittal</author>
-	  <pubDate>2015-01-16T12:39:00+00:00</pubDate>
-	  <guid>//january-time-to-pull-up-my-socks</guid>
-	  <description><![CDATA[
-	     <div dir="ltr"  trbidi="on">I have successfully generated CMake Configuration and have added the code to the kde review board (https://git.reviewboard.kde.org/r/121758/) , corrections asked were made accordingly. Now finally the main task is to port all .cpp files, which i have been working on for a while.<br /><div>Initially got stuck at few places and also had my university examination going on due to which there was a fall in my contribution but now as i am through all these, it's time to gear up the application porting task under the guidance of my mentor.<br /><div>Hoping for a good luck.</div></div></div>
 
 	  ]]></description>
 	</item>

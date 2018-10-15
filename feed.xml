@@ -10,7 +10,8 @@
       <item>
         <title>Akademy 2018, Vienna</title>
         
-          <description>&lt;p&gt;&lt;img src=&quot;/assets/images/campus.JPG&quot; alt=&quot;Campus&quot; /&gt;
+          <description>&lt;!--[Campus][akademy-campus]--&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/campus.JPG&quot; alt=&quot;Campus&quot; width=&quot;100%&quot; /&gt;
 This year Akademy (an annual world summit of KDE) was held in a beautiful city Vienna, Europe during the late second and third week of August.&lt;/p&gt;
 
 </description>
