@@ -8,7 +8,7 @@ subclass: post
 tags:
 - kde
 - akademy
-- Planet KDE
+- PlanetKDE
 ---
 
 <!--[Campus][akademy-campus]-->
