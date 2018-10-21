@@ -9,6 +9,7 @@ tags:
 - kde
 - akademy
 - PlanetKDE
+- talks
 ---
 
 <!--[Campus][akademy-campus]-->
