@@ -11,4 +11,5 @@ I've also been a speaker at various tech conferences sharing my experiences and 
 
 When not at work, you can find me: traveling, clicking pictures, dancing or sleeping :D
 
+Github: [anumittal](https://github.com/anumittal)
 Instagram handle: [a_nu_view](https://www.instagram.com/a_nu_view/)
