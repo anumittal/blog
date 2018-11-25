@@ -8,6 +8,22 @@
     
       
       <item>
+        <title>📱 Conquer the multithread fear in iOS - Deadlocks</title>
+        
+          <description>&lt;p&gt;&lt;br /&gt;
+With the emergence of multi-core processing chips in all our mobile devices, it has given rise to the possibility of performing multiple tasks simultaneously in the application. In iOS, &lt;strong&gt;in order to keep the application’s UI responsive&lt;/strong&gt; 📲, all the heavy task are added in a new thread e.g. networking calls. These threads usually run in the background and send a call back to update the UI if necessary.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 25 Nov 2018 18:40:00 +0000</pubDate>
+        <link>
+        https://anumittal.in/Multithreading-in-iOS</link>
+        <guid isPermaLink="true">https://anumittal.in/Multithreading-in-iOS</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Akademy 2018, Vienna</title>
         
           <description>&lt;!--[Campus][akademy-campus]--&gt;

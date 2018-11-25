@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>anumittal.in/</title>
+   
+   <link>https://anumittal.in</link>
+   <description>Personal blogs</description>
+   <language>en-us</language>
+   <managingEditor> Anu Mittal</managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>📱 Conquer the multithread fear in iOS - Deadlocks</title>
+	  <link>//Multithreading-in-iOS</link>
+	  <author>Anu Mittal</author>
+	  <pubDate>2018-11-25T18:40:00+00:00</pubDate>
+	  <guid>//Multithreading-in-iOS</guid>
+	  <description><![CDATA[
+	     <p><br />
+With the emergence of multi-core processing chips in all our mobile devices, it has given rise to the possibility of performing multiple tasks simultaneously in the application. In iOS, <strong>in order to keep the application’s UI responsive</strong> 📲, all the heavy task are added in a new thread e.g. networking calls. These threads usually run in the background and send a call back to update the UI if necessary.</p>
+
+<p>Need of multithreading has been perfectly stated in the apple documentation, 
+it says:</p>
+
+<blockquote>
+  <p>Each process (application) in OS X or iOS is made up of one or more threads, each of which represents a single path of execution through the application’s code. Every application starts with a single thread, which runs the application’s main function. Applications can spawn additional threads, each of which executes the code of a specific function.</p>
+</blockquote>
+
+<p>In order to facilitate and safely manage these additional threads we need a framework like [dispatch][https://developer.apple.com/documentation/DISPATCH]</p>
+
+<p>✍🏼 <strong>Ways to achieve multithreading:</strong><br />
+- Grand Central Dispatch<br />
+- [NSThread][https://developer.apple.com/documentation/foundation/thread]<br />
+- [NSOperationQueue][https://developer.apple.com/documentation/foundation/operationqueue]</p>
+
+<p>This blog assumes you have basic understanding of these types.</p>
+
+<p>When it comes to comparing these methods:</p>
+
+<p><code class="highlighter-rouge">Code/Structural Origins:</code></p>
+
+<ul>
+  <li>GCD is a low-level C-based API.</li>
+  <li>NSOperation and NSOperationQueue are Objective-C classes (a wrapper on GCD).</li>
+  <li>NSThread is an NSObject (uses pthreads).</li>
+</ul>
+
+<p><code class="highlighter-rouge">Complexity comparison:</code></p>
+
+<ul>
+  <li>For GCD implementation is very light-weight</li>
+  <li>NSOperationQueue is complex and heavy-weight</li>
+  <li>NSThread is just wrapper to pthreads therefore making it lightweight too.</li>
+</ul>
+
+<p><code class="highlighter-rouge">NSOperation advantages over GCD and NSThread:</code><br />
+You can:</p>
+
+<ul>
+  <li>Set up a dependency between two NSOperations hence enables developers to execute tasks in a specific order.</li>
+  <li>Pause, cancel, resume an NSOperation once the task as started its execution therefore give it control over the operation’s life cycle.</li>
+  <li>Monitor the state of an operation like: ready, executing, or finished.</li>
+  <li>Specify the maximum number of queued operations that can run simultaneously.</li>
+</ul>
+
+<p>Clearly, NSOperationQueue provides you more control over the operations.</p>
+
+<p>Once you have decided which methodology you want to use, you need to decide the order and priority of it.</p>
+
+<p><code class="highlighter-rouge">Order of Operation:</code><br />
+Queues can be of two type: Serial Queue or Concurrent Queue which runs the tasks synchronously and asynchronously respectively</p>
+
+<!--[Queues][queuesType]-->
+<p><img src="/assets/images/multithreadingiOS/queuesType.png" alt="Queues" width="60%" />
+<code class="highlighter-rouge">Priority of operations:</code><br />
+Priority is defined as Quality of Service known as QoS and is of following four types:</p>
+
+<!--[QoS][QoS]-->
+<p><img src="/assets/images/multithreadingiOS/QoS.jpg" alt="QoS" width="80%" /></p>
+
+<p>Let’s now try to understand these operation by predicting the output of couple of examples.<br />
+Before trying to answer the output of code below, let’s look at the documentation of [dispatch_async][https://developer.apple.com/documentation/dispatch/1453057-dispatch_async] and [dispatch_sync][https://developer.apple.com/documentation/dispatch/dispatchqueue/1452870-sync]:</p>
+
+<p><strong>Dispatch_async:</strong></p>
+
+<blockquote>
+  <p>🤞🏼 Declaration<br />
+	void dispatch_async(dispatch_queue_t queue, dispatch_block_t block)<br />
+	👥 Discussion<br />
+	This function is the fundamental mechanism for submitting blocks to a dispatch queue. Calls to this function always return immediately after the block has been submitted and never wait for the block to be invoked. The target queue determines whether the block is invoked serially or concurrently with respect to other blocks submitted to that
+	 same queue. Independent serial queues are processed concurrently with respect to each other.<br />
+	💁🏻‍♀️ Summary<br />
+	Submits a block for asynchronous execution on a dispatch queue and returns immediately.</p>
+</blockquote>
+
+<p><strong>Dispatch_sync:</strong></p>
+
+<blockquote>
+  <p>🤞🏼 Declaration<br />
+	void dispatch_sync(dispatch_queue_t queue, dispatch_block_t block);<br />
+	👥 Discussion<br />
+	Submits a block to a dispatch queue for synchronous execution. Unlike dispatch_async, this function does not return until the block has finished. Calling this function and targeting the current queue results in deadlock.
+	Unlike with dispatch_async, no retain is performed on the target queue. Because calls to this function are synchronous, it “borrows” the reference of the caller. Moreover, no Block_copy is performed on the block.
+	As an optimization, this function invokes the block on the current thread when possible.<br />
+	💁🏻‍♀️ Summary<br />
+	Submits a block object for execution on a dispatch queue and waits until that block completes.</p>
+</blockquote>
+
+<p>Now try these out:<br />
+In which order would these logs get printed? Suggest you to give it a try before looking at the solution.</p>
+
+<!--[async Sync Quest][asyncSyncQuest]-->
+<p><img src="/assets/images/multithreadingiOS/async_sync_quest.jpg" alt="asyncSyncQuest" width="100%" /></p>
+
+<p>What is given to us?<br />
+A new “queue” is created from global queue (which means it’s a concurrent queue).
+We are given 2 dispatch task and few NSLog to be printed to understand the flow.</p>
+
+<p>So the output will be:</p>
+
+<!--[Async Sync Output][asyncSync]-->
+<p><img src="/assets/images/multithreadingiOS/async_sync.png" alt="asyncSync" width="100%" /></p>
+
+<p>As we were expecting the string after the async block is printed first, followed by the tasks under the block.
+The reason is quite clearly stated in the documentation, the async task return immediately after the submission.</p>
+
+<p>Agree to me? BUT…</p>
+
+<p>There is a twist: 🔀 <br />
+As we have created a concurrent queue from the global queue and added it to an async dispatch, sure it returns immediately after submission, but the whole point of creating a async dispatch is to allow multiple threads to execute concurrently. So here the main queue (the task of printing “anumittal %num”) and the task in the async dispatch queue can run simultaneously. So you can also expect output in this order:</p>
+
+<!--[Async Sync Output Random][asyncSyncRandom]-->
+<p><img src="/assets/images/multithreadingiOS/async_sync_random.png" alt="asyncSyncRandom" width="100%" /></p>
+
+<p>Making sense?</p>
+
+<p>Similarly, now predict the output if instead of dispatch_async in the first example we had dispatch sync.
+Once again before looking at solution, try to answer it yourself.</p>
+
+<!--[sync sync Output][syncSync]-->
+<p><img src="/assets/images/multithreadingiOS/async_async.png" alt="syncSync" width="100%" /></p>
+
+<p>As the documentation says: “this function does not return until the block has finished” 
+In the sync_sync block, everything happens in the most calmest way. :blush: it prints “1 01 001” then comes another dispatch_sync and the outer one will not continue to line 46 until line 41 to 44 are executed.</p>
+
+<p>But suppose the inner queue was async then it would immediately return and line after 45 and after 40 will execute simultaneously.
+<!--[sync async Output][syncAsync]-->
+<img src="/assets/images/multithreadingiOS/async_async.png" alt="syncAsync" width="100%" /></p>
+
+<p>Last variant would be when both the queues are dispatch_async. 😃</p>
+
+<p>I am sure you must have guessed the output.
+<!--[Async async Output][asyncAsync]-->
+<img src="/assets/images/multithreadingiOS/async_async.png" alt="asyncAsync" width="100%" /></p>
+
+<p>It will be all concurrent.</p>
+
+<p>Congratulations 👏🏼 you have understood the essentials of multithreading. If you get confident with these examples, I am sure you can now play around with threads in your applications.</p>
+
+<p>Also, you must try creating your own new queues.</p>
+
+<p>Syntax:<br />
+<strong>Serial queue:</strong><br />
+<code class="highlighter-rouge">dispatch_queue_t serial_queue = dispatch_queue_create("your.queue.label", DISPATCH_QUEUE_SERIAL);</code></p>
+
+<p><strong>Concurrent queue:</strong><br />
+<code class="highlighter-rouge">dispatch_queue_t concurrent_queue = dispatch_queue_create("your.queue.label", DISPATCH_QUEUE_CONCURRENT);</code></p>
+
+<p><strong>Deadlocks</strong><br />
+You should always resist passing same queue (especially a serial queue) to multiple dispatch blocks, as it might lead to deadlock.</p>
+
+<p>For example.
+<!--[Serial Queue Deadlock][serialQueueDeadlock]-->
+<img src="/assets/images/multithreadingiOS/async_async.png" alt="serialQueueDeadlock" width="100%" /></p>
+
+<p>The code leads to deadlock condition as, the outer async operation waits for the inner block to start and complete, whereas the inner block will not start until the task in “queue” is completed.</p>
+
+<p>Where as works fine with concurrent queue :
+<!--[new concurrent queue][newConcurrentQueue]-->
+<img src="/assets/images/multithreadingiOS/async_async.png" alt="newConcurrentQueue" width="100%" /></p>
+
+<p><em>Just to emphasise, this will work but it is not preferred to use the same queue</em></p>
+
+<p>Lastly a good to know example of deadlock:
+<!--[smallestDeadlock][smallestDeadlock]-->
+<img src="/assets/images/multithreadingiOS/async_async.png" alt="smallestDeadlock" width="100%" />
+This is claimed to be the shortest code to create a deadlock. I hope by now you must be able to think in the direction to answer as to why would this create a deadlock.</p>
+
+<p><code class="highlighter-rouge">Hint:</code> main queue is a serial queue, this code is trying to dispatch the new code block synchronously on the same queue which is running &amp; waiting on the dispatch_sync.</p>
+
+<p>If this all feels little overwhelming then it’s ok. The more you try out examples the easier it is to understand. Please let me know if you would like to learn any of these topics more in detail.
+You can find the project on my [github][https://github.com/anumittal/multithreading-iOS].</p>
+
+<p>In the next blog, we shall look into locks and the most famous readers/writers problem 😊 
+Thanks for reading. 👓</p>
+
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>

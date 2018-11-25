@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- [[! Document Settings ]] -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- [[! Page Meta ]] -->
+    <title>📱 Conquer the multithread fear in iOS - Deadlocks</title>
+    <meta name="description" content="Personal blogs" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" >
+
+    <!-- [[! Styles'n'Scripts ]] -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
+    <link rel="stylesheet" type="text/css"
+          href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/syntax.css" />
+
+    <!-- [[! highlight.js ]] -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!-- [[! Ghost outputs important style and meta data with this tag ]] -->
+        <link rel="canonical" href="https://anumittal.in//Multithreading-in-iOS" />
+    <meta name="referrer" content="origin" />
+    <link rel="next" href="/page2/" />
+
+    <meta property="og:site_name" content="Life is about Exploring" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="📱 Conquer the multithread fear in iOS - Deadlocks" />
+    <meta property="og:description" content="Personal blogs" />
+    <meta property="og:url" content="https://anumittal.in//Multithreading-in-iOS" />
+    <meta property="og:image" content="/assets/images/cover1.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="📱 Conquer the multithread fear in iOS - Deadlocks" />
+    <meta name="twitter:description" content="Personal blogs" />
+    <meta name="twitter:url" content="https://anumittal.in//Multithreading-in-iOS" />
+    <meta name="twitter:image:src" content="/assets/images/cover1.jpg" />
+
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Website",
+    "publisher": "Life is about Exploring",
+    "name": "📱 Conquer the multithread fear in iOS - Deadlocks",
+    "url": "https://anumittal.in//Multithreading-in-iOS",
+    "image": "/assets/images/cover1.jpg",
+    "description": "Personal blogs"
+}
+    </script>
+
+    <meta name="generator" content="Jekyll 3.0.0" />
+    <link rel="alternate" type="application/rss+xml" title="Life is about Exploring" href="/feed.xml" />
+
+
+</head>
+<body class="home-template nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        <li class="nav-home " role="presentation"><a href="/">Home</a></li>
+        <li class="nav-about " role="presentation"><a href="/about">About</a></li>
+        <li class="nav-talk " role="presentation"><a href="/tag/talks">Talks</a></li>
+        <!-- <li class="nav-author " role="presentation"><a href="/author/anu">Author</a></li> -->
+        <li class="nav-resume " role="presentation"><a href="/files/AnuMittalResume.pdf">Resume</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="/feed.xml">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        <!-- [[! Everything else gets inserted here ]] -->
+        <!-- < default -->
+
+<!-- The comment above "< default" means - insert everything in this file into -->
+    <!-- the [body] of the default.hbs template, which contains our header/footer. -->
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+        
+    </nav>
+</header>
+
+<main class="content" role="main">
+
+    <article class="post">
+
+        <header class="post-header">
+            <h1 class="post-title">📱 Conquer the multithread fear in iOS - Deadlocks</h1>
+            <section class="post-meta">
+            <!-- <a href='/'>Anu Mittal</a> -->
+            <time class="post-date" datetime="2018-11-25">25 Nov 2018</time>
+                <!-- [[tags prefix=" on "]] -->
+                
+                on
+                
+                    
+                       <a href='/tag/iOS'>Ios</a>,
+                    
+                
+                    
+                       <a href='/tag/tech'>Tech</a>,
+                    
+                
+                    
+                       <a href='/tag/multithreading'>Multithreading</a>
+                    
+                
+                
+            </section>
+        </header>
+
+        <section class="post-content">
+
+            <p><br />
+With the emergence of multi-core processing chips in all our mobile devices, it has given rise to the possibility of performing multiple tasks simultaneously in the application. In iOS, <strong>in order to keep the application’s UI responsive</strong> 📲, all the heavy task are added in a new thread e.g. networking calls. These threads usually run in the background and send a call back to update the UI if necessary.</p>
+
+<p>Need of multithreading has been perfectly stated in the apple documentation, 
+it says:</p>
+
+<blockquote>
+  <p>Each process (application) in OS X or iOS is made up of one or more threads, each of which represents a single path of execution through the application’s code. Every application starts with a single thread, which runs the application’s main function. Applications can spawn additional threads, each of which executes the code of a specific function.</p>
+</blockquote>
+
+<p>In order to facilitate and safely manage these additional threads we need a framework like [dispatch][https://developer.apple.com/documentation/DISPATCH]</p>
+
+<p>✍🏼 <strong>Ways to achieve multithreading:</strong><br />
+- Grand Central Dispatch<br />
+- [NSThread][https://developer.apple.com/documentation/foundation/thread]<br />
+- [NSOperationQueue][https://developer.apple.com/documentation/foundation/operationqueue]</p>
+
+<p>This blog assumes you have basic understanding of these types.</p>
+
+<p>When it comes to comparing these methods:</p>
+
+<p><code class="highlighter-rouge">Code/Structural Origins:</code></p>
+
+<ul>
+  <li>GCD is a low-level C-based API.</li>
+  <li>NSOperation and NSOperationQueue are Objective-C classes (a wrapper on GCD).</li>
+  <li>NSThread is an NSObject (uses pthreads).</li>
+</ul>
+
+<p><code class="highlighter-rouge">Complexity comparison:</code></p>
+
+<ul>
+  <li>For GCD implementation is very light-weight</li>
+  <li>NSOperationQueue is complex and heavy-weight</li>
+  <li>NSThread is just wrapper to pthreads therefore making it lightweight too.</li>
+</ul>
+
+<p><code class="highlighter-rouge">NSOperation advantages over GCD and NSThread:</code><br />
+You can:</p>
+
+<ul>
+  <li>Set up a dependency between two NSOperations hence enables developers to execute tasks in a specific order.</li>
+  <li>Pause, cancel, resume an NSOperation once the task as started its execution therefore give it control over the operation’s life cycle.</li>
+  <li>Monitor the state of an operation like: ready, executing, or finished.</li>
+  <li>Specify the maximum number of queued operations that can run simultaneously.</li>
+</ul>
+
+<p>Clearly, NSOperationQueue provides you more control over the operations.</p>
+
+<p>Once you have decided which methodology you want to use, you need to decide the order and priority of it.</p>
+
+<p><code class="highlighter-rouge">Order of Operation:</code><br />
+Queues can be of two type: Serial Queue or Concurrent Queue which runs the tasks synchronously and asynchronously respectively</p>
+
+<!--[Queues][queuesType]-->
+<p><img src="/assets/images/multithreadingiOS/queuesType.png" alt="Queues" width="60%" />
+<code class="highlighter-rouge">Priority of operations:</code><br />
+Priority is defined as Quality of Service known as QoS and is of following four types:</p>
+
+<!--[QoS][QoS]-->
+<p><img src="/assets/images/multithreadingiOS/QoS.jpg" alt="QoS" width="80%" /></p>
+
+<p>Let’s now try to understand these operation by predicting the output of couple of examples.<br />
+Before trying to answer the output of code below, let’s look at the documentation of [dispatch_async][https://developer.apple.com/documentation/dispatch/1453057-dispatch_async] and [dispatch_sync][https://developer.apple.com/documentation/dispatch/dispatchqueue/1452870-sync]:</p>
+
+<p><strong>Dispatch_async:</strong></p>
+
+<blockquote>
+  <p>🤞🏼 Declaration<br />
+	void dispatch_async(dispatch_queue_t queue, dispatch_block_t block)<br />
+	👥 Discussion<br />
+	This function is the fundamental mechanism for submitting blocks to a dispatch queue. Calls to this function always return immediately after the block has been submitted and never wait for the block to be invoked. The target queue determines whether the block is invoked serially or concurrently with respect to other blocks submitted to that
+	 same queue. Independent serial queues are processed concurrently with respect to each other.<br />
+	💁🏻‍♀️ Summary<br />
+	Submits a block for asynchronous execution on a dispatch queue and returns immediately.</p>
+</blockquote>
+
+<p><strong>Dispatch_sync:</strong></p>
+
+<blockquote>
+  <p>🤞🏼 Declaration<br />
+	void dispatch_sync(dispatch_queue_t queue, dispatch_block_t block);<br />
+	👥 Discussion<br />
+	Submits a block to a dispatch queue for synchronous execution. Unlike dispatch_async, this function does not return until the block has finished. Calling this function and targeting the current queue results in deadlock.
+	Unlike with dispatch_async, no retain is performed on the target queue. Because calls to this function are synchronous, it “borrows” the reference of the caller. Moreover, no Block_copy is performed on the block.
+	As an optimization, this function invokes the block on the current thread when possible.<br />
+	💁🏻‍♀️ Summary<br />
+	Submits a block object for execution on a dispatch queue and waits until that block completes.</p>
+</blockquote>
+
+<p>Now try these out:<br />
+In which order would these logs get printed? Suggest you to give it a try before looking at the solution.</p>
+
+<!--[async Sync Quest][asyncSyncQuest]-->
+<p><img src="/assets/images/multithreadingiOS/async_sync_quest.jpg" alt="asyncSyncQuest" width="100%" /></p>
+
+<p>What is given to us?<br />
+A new “queue” is created from global queue (which means it’s a concurrent queue).
+We are given 2 dispatch task and few NSLog to be printed to understand the flow.</p>
+
+<p>So the output will be:</p>
+
+<!--[Async Sync Output][asyncSync]-->
+<p><img src="/assets/images/multithreadingiOS/async_sync.png" alt="asyncSync" width="100%" /></p>
+
+<p>As we were expecting the string after the async block is printed first, followed by the tasks under the block.
+The reason is quite clearly stated in the documentation, the async task return immediately after the submission.</p>
+
+<p>Agree to me? BUT…</p>
+
+<p>There is a twist: 🔀 <br />
+As we have created a concurrent queue from the global queue and added it to an async dispatch, sure it returns immediately after submission, but the whole point of creating a async dispatch is to allow multiple threads to execute concurrently. So here the main queue (the task of printing “anumittal %num”) and the task in the async dispatch queue can run simultaneously. So you can also expect output in this order:</p>
+
+<!--[Async Sync Output Random][asyncSyncRandom]-->
+<p><img src="/assets/images/multithreadingiOS/async_sync_random.png" alt="asyncSyncRandom" width="100%" /></p>
+
+<p>Making sense?</p>
+
+<p>Similarly, now predict the output if instead of dispatch_async in the first example we had dispatch sync.
+Once again before looking at solution, try to answer it yourself.</p>
+
+<!--[sync sync Output][syncSync]-->
+<p><img src="/assets/images/multithreadingiOS/async_async.png" alt="syncSync" width="100%" /></p>
+
+<p>As the documentation says: “this function does not return until the block has finished” 
+In the sync_sync block, everything happens in the most calmest way. :blush: it prints “1 01 001” then comes another dispatch_sync and the outer one will not continue to line 46 until line 41 to 44 are executed.</p>
+
+<p>But suppose the inner queue was async then it would immediately return and line after 45 and after 40 will execute simultaneously.
+<!--[sync async Output][syncAsync]-->
+<img src="/assets/images/multithreadingiOS/async_async.png" alt="syncAsync" width="100%" /></p>
+
+<p>Last variant would be when both the queues are dispatch_async. 😃</p>
+
+<p>I am sure you must have guessed the output.
+<!--[Async async Output][asyncAsync]-->
+<img src="/assets/images/multithreadingiOS/async_async.png" alt="asyncAsync" width="100%" /></p>
+
+<p>It will be all concurrent.</p>
+
+<p>Congratulations 👏🏼 you have understood the essentials of multithreading. If you get confident with these examples, I am sure you can now play around with threads in your applications.</p>
+
+<p>Also, you must try creating your own new queues.</p>
+
+<p>Syntax:<br />
+<strong>Serial queue:</strong><br />
+<code class="highlighter-rouge">dispatch_queue_t serial_queue = dispatch_queue_create("your.queue.label", DISPATCH_QUEUE_SERIAL);</code></p>
+
+<p><strong>Concurrent queue:</strong><br />
+<code class="highlighter-rouge">dispatch_queue_t concurrent_queue = dispatch_queue_create("your.queue.label", DISPATCH_QUEUE_CONCURRENT);</code></p>
+
+<p><strong>Deadlocks</strong><br />
+You should always resist passing same queue (especially a serial queue) to multiple dispatch blocks, as it might lead to deadlock.</p>
+
+<p>For example.
+<!--[Serial Queue Deadlock][serialQueueDeadlock]-->
+<img src="/assets/images/multithreadingiOS/async_async.png" alt="serialQueueDeadlock" width="100%" /></p>
+
+<p>The code leads to deadlock condition as, the outer async operation waits for the inner block to start and complete, whereas the inner block will not start until the task in “queue” is completed.</p>
+
+<p>Where as works fine with concurrent queue :
+<!--[new concurrent queue][newConcurrentQueue]-->
+<img src="/assets/images/multithreadingiOS/async_async.png" alt="newConcurrentQueue" width="100%" /></p>
+
+<p><em>Just to emphasise, this will work but it is not preferred to use the same queue</em></p>
+
+<p>Lastly a good to know example of deadlock:
+<!--[smallestDeadlock][smallestDeadlock]-->
+<img src="/assets/images/multithreadingiOS/async_async.png" alt="smallestDeadlock" width="100%" />
+This is claimed to be the shortest code to create a deadlock. I hope by now you must be able to think in the direction to answer as to why would this create a deadlock.</p>
+
+<p><code class="highlighter-rouge">Hint:</code> main queue is a serial queue, this code is trying to dispatch the new code block synchronously on the same queue which is running &amp; waiting on the dispatch_sync.</p>
+
+<p>If this all feels little overwhelming then it’s ok. The more you try out examples the easier it is to understand. Please let me know if you would like to learn any of these topics more in detail.
+You can find the project on my [github][https://github.com/anumittal/multithreading-iOS].</p>
+
+<p>In the next blog, we shall look into locks and the most famous readers/writers problem 😊 
+Thanks for reading. 👓</p>
+
+
+
+        </section>
+
+        <footer class="post-footer">
+
+            <!-- Everything inside the #author tags pulls data from the author -->
+            <!-- #author-->
+
+            
+            <figure class="author-image">
+                <a class="img" href="/author/anu" style="background-image: url(/assets/images/anu_profile.jpg)"><span class="hidden">Anu Mittal's Picture</span></a>
+            </figure>
+            
+
+            <section class="author">
+                <h4><a href="/author/anu">Anu Mittal</a></h4>
+
+                
+                    <p> Software Developer, GSoCer, Open Source Tech Enthusiast</p>
+                
+                <div class="author-meta">
+                    <span class="author-location icon-location"> Delhi, IN</span>
+                    <span class="author-link icon-link"><a href="https://anumittal.in"> anumittal.in/</a></span>
+                </div>
+            </section>
+
+            <!-- /author  -->
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="http://twitter.com/share?text=📱 Conquer the multithread fear in iOS - Deadlocks&amp;url=https://anumittal.inMultithreading-in-iOS"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://anumittal.inMultithreading-in-iOS"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=https://anumittal.inMultithreading-in-iOS"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+            <!-- Add Disqus Comments -->
+            
+
+        </footer>
+
+    </article>
+
+</main>
+
+<aside class="read-next">
+
+    <!-- [[! next_post ]] -->
+    
+    <!-- [[! /next_post ]] -->
+    <!-- [[! prev_post ]] -->
+    
+        <a class="read-next-story prev no-cover" href="/akademy-vienna">
+            <section class="post">
+                <h2>Akademy 2018, Vienna</h2>
+                <p>This year Akademy (an annual world summit of KDE) was held in a beautiful city...</p>
+            </section>
+        </a>
+    
+    <!-- [[! /prev_post ]] -->
+</aside>
+
+<!-- /post -->
+
+
+        <footer class="site-footer clearfix">
+          <section class="copyright"><a href="/">Life is about Exploring</a> &copy; 2018</section>
+          <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> using <a href="https://github.com/biomadeira/jasper">Jasper</a></section>
+        </footer>
+    </div>
+    <!-- [[! highlight.js ]] -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <!-- [[! Ghost outputs important scripts and data with this tag ]] -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- [[! The main JavaScript file for Casper ]] -->
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/assets/js/index.js"></script>
+
+    <!-- Add Google Analytics  -->
+        <!-- Google Analytics Tracking code -->
+     <script>
+	    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	    ga('create', 'UA-109855438-1', 'auto');
+	    ga('send', 'pageview');
+
+     </script>
+</body>
+</html>
