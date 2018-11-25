@@ -28,12 +28,12 @@ it says:</p>
   <p>Each process (application) in OS X or iOS is made up of one or more threads, each of which represents a single path of execution through the application’s code. Every application starts with a single thread, which runs the application’s main function. Applications can spawn additional threads, each of which executes the code of a specific function.</p>
 </blockquote>
 
-<p>In order to facilitate and safely manage these additional threads we need a framework like [dispatch][https://developer.apple.com/documentation/DISPATCH]</p>
+<p>In order to facilitate and safely manage these additional threads we need a framework like <a href="https://developer.apple.com/documentation/DISPATCH">dispatch</a></p>
 
 <p>✍🏼 <strong>Ways to achieve multithreading:</strong><br />
 - Grand Central Dispatch<br />
-- [NSThread][https://developer.apple.com/documentation/foundation/thread]<br />
-- [NSOperationQueue][https://developer.apple.com/documentation/foundation/operationqueue]</p>
+- <a href="https://developer.apple.com/documentation/foundation/thread">NSThread</a><br />
+- <a href="https://developer.apple.com/documentation/foundation/operationqueue">NSOperationQueue</a></p>
 
 <p>This blog assumes you have basic understanding of these types.</p>
 
@@ -73,7 +73,7 @@ You can:</p>
 Queues can be of two type: Serial Queue or Concurrent Queue which runs the tasks synchronously and asynchronously respectively</p>
 
 <!--[Queues][queuesType]-->
-<p><img src="/assets/images/multithreadingiOS/queuesType.png" alt="Queues" width="60%" />
+<p><img src="/assets/images/multithreadingiOS/queuesType.png" alt="Queues" width="80%" />
 <code class="highlighter-rouge">Priority of operations:</code><br />
 Priority is defined as Quality of Service known as QoS and is of following four types:</p>
 
@@ -81,7 +81,7 @@ Priority is defined as Quality of Service known as QoS and is of following four 
 <p><img src="/assets/images/multithreadingiOS/QoS.jpg" alt="QoS" width="80%" /></p>
 
 <p>Let’s now try to understand these operation by predicting the output of couple of examples.<br />
-Before trying to answer the output of code below, let’s look at the documentation of [dispatch_async][https://developer.apple.com/documentation/dispatch/1453057-dispatch_async] and [dispatch_sync][https://developer.apple.com/documentation/dispatch/dispatchqueue/1452870-sync]:</p>
+Before trying to answer the output of code below, let’s look at the documentation of <a href="https://developer.apple.com/documentation/dispatch/1453057-dispatch_async">dispatch_async</a> and <a href="https://developer.apple.com/documentation/dispatch/dispatchqueue/1452870-sync">dispatch_sync</a>:</p>
 
 <p><strong>Dispatch_async:</strong></p>
 
@@ -191,7 +191,7 @@ This is claimed to be the shortest code to create a deadlock. I hope by now you 
 <p><code class="highlighter-rouge">Hint:</code> main queue is a serial queue, this code is trying to dispatch the new code block synchronously on the same queue which is running &amp; waiting on the dispatch_sync.</p>
 
 <p>If this all feels little overwhelming then it’s ok. The more you try out examples the easier it is to understand. Please let me know if you would like to learn any of these topics more in detail.
-You can find the project on my [github][https://github.com/anumittal/multithreading-iOS].</p>
+You can find the project on my <a href="https://github.com/anumittal/multithreading-iOS">github</a>.</p>
 
 <p>In the next blog, we shall look into locks and the most famous readers/writers problem 😊 
 Thanks for reading. 👓</p>
