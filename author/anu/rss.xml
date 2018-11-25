@@ -12,7 +12,7 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
-	  <title>📱 Conquer the multithread fear in iOS - Deadlocks</title>
+	  <title>📱 Getting started with the multithreading in iOS</title>
 	  <link>//Multithreading-in-iOS</link>
 	  <author>Anu Mittal</author>
 	  <pubDate>2018-11-25T18:40:00+00:00</pubDate>
@@ -70,11 +70,11 @@ You can:</p>
 <p>Once you have decided which methodology you want to use, you need to decide the order and priority of it.</p>
 
 <p><code class="highlighter-rouge">Order of Operation:</code><br />
-Queues can be of two type: Serial Queue or Concurrent Queue which runs the tasks synchronously and asynchronously respectively</p>
-
+Queues can be of two type: Serial Queue or Concurrent Queue which runs the tasks synchronously and asynchronously respectively
 <!--[Queues][queuesType]-->
-<p><img src="/assets/images/multithreadingiOS/queuesType.png" alt="Queues" width="80%" />
-<code class="highlighter-rouge">Priority of operations:</code><br />
+<img src="/assets/images/multithreadingiOS/queuesType.png" alt="Queues" width="100%" /></p>
+
+<p><code class="highlighter-rouge">Priority of operations:</code><br />
 Priority is defined as Quality of Service known as QoS and is of following four types:</p>
 
 <!--[QoS][QoS]-->
@@ -140,14 +140,14 @@ As we have created a concurrent queue from the global queue and added it to an a
 Once again before looking at solution, try to answer it yourself.</p>
 
 <!--[sync sync Output][syncSync]-->
-<p><img src="/assets/images/multithreadingiOS/async_async.png" alt="syncSync" width="100%" /></p>
+<p><img src="/assets/images/multithreadingiOS/sync_sync.png" alt="syncSync" width="100%" /></p>
 
 <p>As the documentation says: “this function does not return until the block has finished” 
 In the sync_sync block, everything happens in the most calmest way. :blush: it prints “1 01 001” then comes another dispatch_sync and the outer one will not continue to line 46 until line 41 to 44 are executed.</p>
 
 <p>But suppose the inner queue was async then it would immediately return and line after 45 and after 40 will execute simultaneously.
 <!--[sync async Output][syncAsync]-->
-<img src="/assets/images/multithreadingiOS/async_async.png" alt="syncAsync" width="100%" /></p>
+<img src="/assets/images/multithreadingiOS/sync_async.png" alt="syncAsync" width="100%" /></p>
 
 <p>Last variant would be when both the queues are dispatch_async. 😃</p>
 
@@ -173,19 +173,19 @@ You should always resist passing same queue (especially a serial queue) to multi
 
 <p>For example.
 <!--[Serial Queue Deadlock][serialQueueDeadlock]-->
-<img src="/assets/images/multithreadingiOS/async_async.png" alt="serialQueueDeadlock" width="100%" /></p>
+<img src="/assets/images/multithreadingiOS/serialQueueDeadlock.png" alt="serialQueueDeadlock" width="100%" /></p>
 
 <p>The code leads to deadlock condition as, the outer async operation waits for the inner block to start and complete, whereas the inner block will not start until the task in “queue” is completed.</p>
 
 <p>Where as works fine with concurrent queue :
 <!--[new concurrent queue][newConcurrentQueue]-->
-<img src="/assets/images/multithreadingiOS/async_async.png" alt="newConcurrentQueue" width="100%" /></p>
+<img src="/assets/images/multithreadingiOS/newConcurrentQueue.png" alt="newConcurrentQueue" width="100%" /></p>
 
 <p><em>Just to emphasise, this will work but it is not preferred to use the same queue</em></p>
 
 <p>Lastly a good to know example of deadlock:
 <!--[smallestDeadlock][smallestDeadlock]-->
-<img src="/assets/images/multithreadingiOS/async_async.png" alt="smallestDeadlock" width="100%" />
+<img src="/assets/images/multithreadingiOS/smallestDeadlock.png" alt="smallestDeadlock" width="100%" />
 This is claimed to be the shortest code to create a deadlock. I hope by now you must be able to think in the direction to answer as to why would this create a deadlock.</p>
 
 <p><code class="highlighter-rouge">Hint:</code> main queue is a serial queue, this code is trying to dispatch the new code block synchronously on the same queue which is running &amp; waiting on the dispatch_sync.</p>
