@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 📱 Conquer the multithread fear in iOS - Deadlocks
+title: 📱 Getting started with the multithreading in iOS
 date: '2018-11-25T11:40:00.005-07:00'
 author: Anu Mittal
 categories: 'anu'
@@ -20,13 +20,13 @@ it says:
 > Each process (application) in OS X or iOS is made up of one or more threads, each of which represents a single path of execution through the application's code. Every application starts with a single thread, which runs the application's main function. Applications can spawn additional threads, each of which executes the code of a specific function.
 
   
-In order to facilitate and safely manage these additional threads we need a framework like [dispatch][https://developer.apple.com/documentation/DISPATCH]
+In order to facilitate and safely manage these additional threads we need a framework like [dispatch](https://developer.apple.com/documentation/DISPATCH)
 
 
 ✍🏼 **Ways to achieve multithreading:**  
 - Grand Central Dispatch  
-- [NSThread][https://developer.apple.com/documentation/foundation/thread]  
-- [NSOperationQueue][https://developer.apple.com/documentation/foundation/operationqueue]  
+- [NSThread](https://developer.apple.com/documentation/foundation/thread)  
+- [NSOperationQueue](https://developer.apple.com/documentation/foundation/operationqueue)  
 
 This blog assumes you have basic understanding of these types.
 
@@ -58,9 +58,9 @@ Once you have decided which methodology you want to use, you need to decide the 
 
 `Order of Operation:`  
 Queues can be of two type: Serial Queue or Concurrent Queue which runs the tasks synchronously and asynchronously respectively
-
 <!--[Queues][queuesType]-->
-<img src="/assets/images/multithreadingiOS/queuesType.png" alt="Queues" width="60%"/>
+<img src="/assets/images/multithreadingiOS/queuesType.png" alt="Queues" width="100%"/>
+
 `Priority of operations:`  
 Priority is defined as Quality of Service known as QoS and is of following four types:
 
@@ -69,7 +69,7 @@ Priority is defined as Quality of Service known as QoS and is of following four 
 <img src="/assets/images/multithreadingiOS/QoS.jpg" alt="QoS" width="80%"/>
 
 Let’s now try to understand these operation by predicting the output of couple of examples.  
-Before trying to answer the output of code below, let’s look at the documentation of [dispatch_async][https://developer.apple.com/documentation/dispatch/1453057-dispatch_async] and [dispatch_sync][https://developer.apple.com/documentation/dispatch/dispatchqueue/1452870-sync]:
+Before trying to answer the output of code below, let’s look at the documentation of [dispatch_async](https://developer.apple.com/documentation/dispatch/1453057-dispatch_async) and [dispatch_sync](https://developer.apple.com/documentation/dispatch/dispatchqueue/1452870-sync):
 
 **Dispatch_async:**  
 
@@ -126,7 +126,7 @@ Similarly, now predict the output if instead of dispatch_async in the first exam
 Once again before looking at solution, try to answer it yourself.
 
 <!--[sync sync Output][syncSync]-->
-<img src="/assets/images/multithreadingiOS/async_async.png" alt="syncSync" width="100%"/>
+<img src="/assets/images/multithreadingiOS/sync_sync.png" alt="syncSync" width="100%"/>
 
 
 As the documentation says: “this function does not return until the block has finished” 
@@ -134,7 +134,7 @@ In the sync_sync block, everything happens in the most calmest way. :blush: it p
 
 But suppose the inner queue was async then it would immediately return and line after 45 and after 40 will execute simultaneously.
 <!--[sync async Output][syncAsync]-->
-<img src="/assets/images/multithreadingiOS/async_async.png" alt="syncAsync" width="100%"/>
+<img src="/assets/images/multithreadingiOS/sync_async.png" alt="syncAsync" width="100%"/>
 
 Last variant would be when both the queues are dispatch_async. 😃  
 
@@ -163,25 +163,25 @@ You should always resist passing same queue (especially a serial queue) to multi
 
 For example.
 <!--[Serial Queue Deadlock][serialQueueDeadlock]-->
-<img src="/assets/images/multithreadingiOS/async_async.png" alt="serialQueueDeadlock" width="100%"/>
+<img src="/assets/images/multithreadingiOS/serialQueueDeadlock.png" alt="serialQueueDeadlock" width="100%"/>
 
 The code leads to deadlock condition as, the outer async operation waits for the inner block to start and complete, whereas the inner block will not start until the task in “queue” is completed. 
 
 Where as works fine with concurrent queue :
 <!--[new concurrent queue][newConcurrentQueue]-->
-<img src="/assets/images/multithreadingiOS/async_async.png" alt="newConcurrentQueue" width="100%"/>
+<img src="/assets/images/multithreadingiOS/newConcurrentQueue.png" alt="newConcurrentQueue" width="100%"/>
 
 *Just to emphasise, this will work but it is not preferred to use the same queue*
 
 Lastly a good to know example of deadlock:
 <!--[smallestDeadlock][smallestDeadlock]-->
-<img src="/assets/images/multithreadingiOS/async_async.png" alt="smallestDeadlock" width="100%"/>
+<img src="/assets/images/multithreadingiOS/smallestDeadlock.png" alt="smallestDeadlock" width="100%"/>
 This is claimed to be the shortest code to create a deadlock. I hope by now you must be able to think in the direction to answer as to why would this create a deadlock.
 
 `Hint:` main queue is a serial queue, this code is trying to dispatch the new code block synchronously on the same queue which is running & waiting on the dispatch_sync.
 
 If this all feels little overwhelming then it’s ok. The more you try out examples the easier it is to understand. Please let me know if you would like to learn any of these topics more in detail.
-You can find the project on my [github][https://github.com/anumittal/multithreading-iOS].
+You can find the project on my [github](https://github.com/anumittal/multithreading-iOS).
 
 In the next blog, we shall look into locks and the most famous readers/writers problem 😊 
 Thanks for reading. 👓
