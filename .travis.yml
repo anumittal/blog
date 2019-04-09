@@ -1,24 +1,12 @@
-sudo: false
 language: ruby
-cache: bundler
 rvm:
-#- 2.1
-- 2.4.2
-
-install:
-  # Install Jekyll and dependencies
-  - bundle install
-
-script: bundle exec rake site:deploy --quiet #--trace
-
-# Generate your secure token with the travis gem:
-# get Github token from your Travis CI profile page
-# gem install travis
-# GH_TOKEN from https://github.com/settings/tokens
-# travis encrypt 'GIT_NAME="YOUR_USERNAME" GIT_EMAIL="YOUR_EMAIL" GH_TOKEN=YOUR_TOKEN'
+  - 2.4.1
+before_install:
+  - gem update --system
+  - gem install bundler
+script:
+  - bundle exec jekyll build
 env:
   global:
-    secure: psjEDQFeOY9+BKTspUedYT2hi0tAkTERSsBfwKSlG4OwbLf1UZPUrcnXvyEKsdnwYLwep0zp0v6lfTWvZg9Ocrpvc4doxQY//AkPPR6Xj8x0H8ATCI3+byV+S6LYgH/O/lQn0cNxYA9aCiU63eeTsnE+Wn7bgIyz0vRRY18wKICKdpJltJBI9Z5b69Yv4ZSbW+RZo9VrHW9AQdAJ7YRJ0Mn60tCeCM77v60bIKAMXkcgkYSF3K92e4ycu8g2TDZ2M83FxqjaOpStGvT+mLAQ8RfeWoBPyMY96wJoa1w31sqAiZ7KTPxYWEsagPlIQMdApdxd/H3I9bdRPxvRinXAtcEF1HMhTy+9MvLMNRCSyrV6e6P2gTxUu8Bv6W3crXpypmiCYiRz3x0SV/RIFYzTHCjhKdsuj9zEbOAEUj+OdaIPYYl+2STldJwVMgo8g6wkEZaUn1Y65NW6rRfidqqjLl4yWKZ/KUrRydCoYrd6Mvk3trOLWHeop3MlSSI9NH3S9sq8n2tFPE0IMJuwbNtP6xqSWf7/OOgDhJxW3uSEEMcw4aT5zSvrP/p/U+W/s022np/uDcfqgcaHWj29eB99bbJ94CCiMwTw7CjlMeKzMAMnqoW//vR9gb3zuuMksML/8RUIKcJnv4N0sQsUZmKPxDXzA6WfZqxNxfewBgP5k7w=
-branches:
-  only:
-    - master
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+cache: bundler
