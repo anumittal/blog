@@ -780,6 +780,7 @@ body.nav-opened .nav {
     height: 38px;
     padding: 1px 0 5px 0;
     width: auto;
+    border-radius: 100%;
 }
 
 .menu-button {
