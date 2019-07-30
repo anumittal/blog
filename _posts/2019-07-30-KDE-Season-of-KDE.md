@@ -18,9 +18,9 @@ KDE stands for **K Desktop Environment**. It is a desktop environment for Linux 
 
 **Why KDE?**
 <br>
-> **Integration** KDE is well integrated with many applications of all kinds. Applications do not have to be written specifically for KDE, and all of the applications that are typically part of the GNOME desktop also work just fine in KDE <br>
-> **Looks** I like the many ways in which I can change the look of the KDE Plasma workspace. Sometimes we like to set colours and looks to suit our moods. Icons, widgets, fonts, pointers, the window decorations, and much more can also be changed, and you can download and install new ones if those already installed are not right for you. <br>
-> **Flexibility** KDE allows me to define the functions of the mouse buttons, how windows behave, and how to deal with new devices that are plugged in such as whether to mount them if they are storage devices and which applications to open automatically.
+> **Integration**: KDE is well integrated with many applications of all kinds. Applications do not have to be written specifically for KDE, and all of the applications that are typically part of the GNOME desktop also work just fine in KDE <br>
+> **Looks**: I like the many ways in which I can change the look of the KDE Plasma workspace. Sometimes we like to set colours and looks to suit our moods. Icons, widgets, fonts, pointers, the window decorations, and much more can also be changed, and you can download and install new ones if those already installed are not right for you. <br>
+> **Flexibility**: KDE allows me to define the functions of the mouse buttons, how windows behave, and how to deal with new devices that are plugged in such as whether to mount them if they are storage devices and which applications to open automatically.
 <br>
 
 And here is where the GUI desktop combines with the CLI to enhance user exp. The feature I find most useful is the fact that the Konsole window allows for multiple tabs with a separate terminal session in each tab.
@@ -43,25 +43,33 @@ Do check out the [KDE Community Wiki](https://community.kde.org/Get_Involved) fo
 KDE has many application domains which can be categorized as
 
 <br>1. **KDE - Development**
-- <br>e.g. KDevelop IDE for CPP files KDiff3 and Kompare creating diff patch
+- e.g. KDevelop IDE for CPP files KDiff3 and Kompare creating diff patch
+
 <br>2. **KDE - Education**
-- <br>e.g. Kalzium for chemistry     Kletters for alphabet edu   KAlgebra for maths
+- e.g. Kalzium for chemistry     Kletters for alphabet edu   KAlgebra for maths
+
 <br>3. **KDE - Games**
-- <br>e.g. KDiamond: Three-in-a-row game    KPatience: Patience Card Game            KSudoku: Sudoku Game
+- e.g. KDiamond: Three-in-a-row game    KPatience: Patience Card Game            KSudoku: Sudoku Game
+
 <br>4. **KDE - Graphics**
-- <br>e.g. KPhotoAlbum    Photo Album    KolourPaint Paint Program    
+- e.g. KPhotoAlbum    Photo Album    KolourPaint Paint Program    
 Karbon Scalable Graphics
+
 <br>5. **KDE - Internet**
-- <br>e.g. KNode News Reader    KRDC Remote Desktop Client    KGet Download Manager
+- e.g. KNode News Reader    KRDC Remote Desktop Client    KGet Download Manager
+
 <br>6. **KDE - Multimedia**
-- <br>e.g. KMPlayer Media Player    KsCD CD Player    KMix Sound Mixer
+- e.g. KMPlayer Media Player    KsCD CD Player    KMix Sound Mixer
+
 <br>7. **KDE - Office**
-- <br>e.g. Kontact Personal Information Manager        KOrganizer Personal Organizer
+- e.g. Kontact Personal Information Manager        KOrganizer Personal Organizer
 Plan Project Management
+
 <br>8. **KDE - System**
-- <br>e.g. Konsole Terminal     Dolphin File Manager    KSystemLog  System Log Viewer
+- e.g. Konsole Terminal     Dolphin File Manager    KSystemLog  System Log Viewer
+
 <br>9. **KDE - Utilities**
-- <br>e.g. KCalc Scientific Calculator     KJots Note Taker     KTimer Countdown Launcher
+- e.g. KCalc Scientific Calculator     KJots Note Taker     KTimer Countdown Launcher
 KFileReplace Search & Replace Tool
 
 There are more than 200 applciations in the KDE domain, refer the list [here](https://www.kde.org/applications/)
