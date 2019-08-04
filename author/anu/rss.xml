@@ -126,13 +126,7 @@ Qt is a cross-platform framework with tools designed to streamline the creation 
 </ul>
 
 <p><em>The format of projects proposal should be in this</em>
-<br /></p>
-
-<p>Brief explanation: 
-Expected results: 
-Knowledge Prerequisite: 
-Mentor: 
-<br /></p>
+<!--SoKProposalFormat--></p>
 
 <p><br />
 find a project that interests you, look at the technologies used, and understand the idea of the project, If you are comfortable with those, you can clone the source code and install the app by referring: Framework/Building. It covers everything from building the framework to configuring file and run-time setup.
@@ -144,6 +138,7 @@ If you don’t get help from there then you can at any time mail your queries on
 <p>If you are not familiar with the technologies or you get stuck anywhere, you can read blogs and tutorials, ask for help on the mailing list or IRC, ping the contributors. always Ask. Do not hesitate. Not even once. If needed ask again enlightening any specific part of your query.</p>
 
 <p>Once you are done with the setup and know well enough about a project you can contact a mentor for the same. You can talk about your idea on IRC or mailing list interested mentor will get in touch and then you can get started with your project.</p>
+
 
 	  ]]></description>
 	</item>
@@ -415,14 +410,15 @@ It was a great experience to meet active contributor of KDE all around the globe
 	  <pubDate>2017-08-16T20:30:00+00:00</pubDate>
 	  <guid>//akademy-2017-wonderful-experience</guid>
 	  <description><![CDATA[
-	     **Hola Amigos!**<br><br>
-**Akademy 2017** was such a great experience, that I would love to share with you all in this post. <br> For those who are unaware about Akademy, it’s an annual [world summit of KDE](https://akademy.kde.org).
-<br> This year, Akademy was held in **Almeria, Spain**.
->Akademy features a 2-day conference with presentations on the latest KDE developments, followed by 4 days of workshops, Birds of a Feather (BoF) and coding sessions.
-<br>There are so many interesting talks given by some real tech enthusiasts, who are amiable and super cool. It is a great opportunity to meet people in person whom you have been communicating just knowing their IRC nickname.<br><br>So, as mentioned it started with some really interesting presentations on *Plasma desktops, Plasma mobile, Ruqola, digiKam, WikiData, GCompris, KIO library, Calligra, KDE neon, Slimbook, Translating Challenges*, and many more. We were fortunate to have **Robert Kaye** and **Antonio Larrosa** as our keynote speaker. These presentations were followed by BoF sessions and Workshops.<br><br>**I conducted a workshop on Qt Quick Control 2**, *Paul Brown* had some awesome stuff to share on what data should be visible to a viewer who visits your site or uses your product. Parallelly there was a BoF session, where the team brainstormed on Plasma mobile and Plasma vision.<br><br>It was such pleasure to meet *Valorie, Aleix Pol, Albert, Lydia, John Samuel, David, Timothee, Vasudha, Jonathan* and so many more active contributes of KDE.<br>[Memories of Akademy 2017]
->**How is KDE Akademy different than conf.kde.in?**<br>I have been a part of [KDE India conference](conf.kde.in) held in Jaipur in 2016. Which looked like this: <br> When you see this, you find so many students, keen to learn about *FOSS and KDE community*. <br> All are budding developers with some spark and unexplored ideas in their mind. So such type of conferences held by KDE in India help these unexplored ideas to come into execution by using and developing features in the various softwares build by KDE developers. <br> Whereas, when you look at these bunch of developers here in this picture: <br> This is the group photograph of Akademy 2017 attendees. They are the backbone of all softwares in KDE, expert and deeply involved in contributing in KDE.
+	     <p><strong>Hola Amigos!</strong><br /><br />
+<strong>Akademy 2017</strong> was such a great experience, that I would love to share with you all in this post. <br /> For those who are unaware about Akademy, it’s an annual <a href="https://akademy.kde.org">world summit of KDE</a>.
+<br /> This year, Akademy was held in <strong>Almeria, Spain</strong>.
+&gt;Akademy features a 2-day conference with presentations on the latest KDE developments, followed by 4 days of workshops, Birds of a Feather (BoF) and coding sessions.
+<br />There are so many interesting talks given by some real tech enthusiasts, who are amiable and super cool. It is a great opportunity to meet people in person whom you have been communicating just knowing their IRC nickname.<br /><br />So, as mentioned it started with some really interesting presentations on <em>Plasma desktops, Plasma mobile, Ruqola, digiKam, WikiData, GCompris, KIO library, Calligra, KDE neon, Slimbook, Translating Challenges</em>, and many more. We were fortunate to have <strong>Robert Kaye</strong> and <strong>Antonio Larrosa</strong> as our keynote speaker. These presentations were followed by BoF sessions and Workshops.<br /><br /><strong>I conducted a workshop on Qt Quick Control 2</strong>, <em>Paul Brown</em> had some awesome stuff to share on what data should be visible to a viewer who visits your site or uses your product. Parallelly there was a BoF session, where the team brainstormed on Plasma mobile and Plasma vision.<br /><br />It was such pleasure to meet <em>Valorie, Aleix Pol, Albert, Lydia, John Samuel, David, Timothee, Vasudha, Jonathan</em> and so many more active contributes of KDE.<br />[Memories of Akademy 2017]
+&gt;<strong>How is KDE Akademy different than conf.kde.in?</strong><br />I have been a part of <a href="conf.kde.in">KDE India conference</a> held in Jaipur in 2016. Which looked like this: <br /> When you see this, you find so many students, keen to learn about <em>FOSS and KDE community</em>. <br /> All are budding developers with some spark and unexplored ideas in their mind. So such type of conferences held by KDE in India help these unexplored ideas to come into execution by using and developing features in the various softwares build by KDE developers. <br /> Whereas, when you look at these bunch of developers here in this picture: <br /> This is the group photograph of Akademy 2017 attendees. They are the backbone of all softwares in KDE, expert and deeply involved in contributing in KDE.</p>
 
-<br>*I would like to thank KDE for giving me this opportunity. It has added great experience and wonderful memories to my journey of foss development* <br><br>PS. Help make KDE apps and Plasma easier to use, more convenient and accessibl by supporting [#Randa2017](https://dot.kde.org/2017/08/08/randa-meetings-2017-its-all-about-accessibility)
+<p><br /><em>I would like to thank KDE for giving me this opportunity. It has added great experience and wonderful memories to my journey of foss development</em> <br /><br />PS. Help make KDE apps and Plasma easier to use, more convenient and accessibl by supporting <a href="https://dot.kde.org/2017/08/08/randa-meetings-2017-its-all-about-accessibility">#Randa2017</a></p>
+
 	  ]]></description>
 	</item>
 
