@@ -117,13 +117,7 @@ Qt is a cross-platform framework with tools designed to streamline the creation 
 
 
 *The format of projects proposal should be in this*
-<br>
-
-Brief explanation: 
-Expected results: 
-Knowledge Prerequisite: 
-Mentor: 
-<br>
+<!--SoKProposalFormat-->
 
 <br>
 find a project that interests you, look at the technologies used, and understand the idea of the project, If you are comfortable with those, you can clone the source code and install the app by referring: Framework/Building. It covers everything from building the framework to configuring file and run-time setup.
@@ -136,3 +130,5 @@ If you don’t get help from there then you can at any time mail your queries on
 If you are not familiar with the technologies or you get stuck anywhere, you can read blogs and tutorials, ask for help on the mailing list or IRC, ping the contributors. always Ask. Do not hesitate. Not even once. If needed ask again enlightening any specific part of your query.
  
 Once you are done with the setup and know well enough about a project you can contact a mentor for the same. You can talk about your idea on IRC or mailing list interested mentor will get in touch and then you can get started with your project.
+
+[SoKProposalFormat]: /assets/images/KdeAndSoK/SoKProposalFormat.png
