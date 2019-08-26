@@ -12,6 +12,114 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>60 days in Singapore</title>
+	  <link>//60-days-in-Singapore</link>
+	  <author>Anu Mittal</author>
+	  <pubDate>2019-08-25T18:40:00+00:00</pubDate>
+	  <guid>//60-days-in-Singapore</guid>
+	  <description><![CDATA[
+	     <p><strong>So, here is how my ~60 days in Singapore looks like.</strong></p>
+
+<p>The <strong>first week</strong> was mostly getting accustomed with the Commute system and routes here, definitely apart from understanding and learning more about the company you are part of.</p>
+
+<p><strong>Transportation:</strong> MRT, Buses and cabs (Grab, Go-Jek, running Taxi)</p>
+
+<p><strong>Tickets:</strong> 
+For local transport(MRT and buses both) you can get an ezlink card from any of the MRT stations and top-up the card whenever needed.
+One alternative is setting up the Google Pay or Apple Pay (for iOS app - you should have Singapore apple ID). 
+You can also use your debit card for the same. To know more checkout SimplyGo app. 
+If none of these works out for you, you can also buy tickets from the bus driver or MRT ticket counter each time.</p>
+
+<p><strong>Cost:</strong>
+MRT/Buses as expected are the cheapest means of transportation (Range S$0.83 - S$2.08)
+Cabs are quite costly (avg. $10 to $20). Grab is usually costlier than Go-Jek. If you want to travel somewhere late at night, running taxi can be considered as there might be surge pricing for cab services.</p>
+
+<p><strong>The best app to navigate:</strong> City Mapper (honestly, I find it better than Google map’s navigation feature)</p>
+
+<p>The <strong>second week</strong> is mostly the settling week.</p>
+
+<p><strong>A place to stay:</strong>
+There are multiple apps to help you find a place to stay, like PropertyGuru, 99.co, Roomgo, etc
+There is also a Facebook group named “Flat and Flatmates” where you can find good deals.</p>
+
+<p>You can either rent 1bhk or rent a room in 3bhk or so. There are two types of apartment,
+* Condo (Condominiums)
+* HDB (Housing &amp; Development Board)</p>
+
+<p>Unlike HDB, Condo apartment has facilities like swimming pool and gym. 1bhk in a condo apartment will roughly cost you around S$1,700 to S$2,000 or more per month depending on the location. HDBs are comparatively cheaper, you can get a master room in about S$1,300 - S$1,500 monthly (fully furnished).</p>
+
+<p><strong>SIM card and Bank Account:</strong></p>
+
+<details>
+  <summary>Recommended options for SIM</summary>
+  <p> 
+     * Singtel: ~ $20 to $38 monthly
+     * Circles.Life: ~ $18 to $38 monthly (with more/unlimited data offers)
+  </p>
+</details>
+
+<details>
+  <summary>Popular bank options:</summary>
+  <p> 
+    * OCBC (Oversea-Chinese Banking Corporation) - OCBC 360 Account
+    * DBS (Development Bank of Singapore) - DBS Multiplier account
+  </p>
+</details>
+
+<p>You need an address proof for both, to get a sim card (postpaid) and to create a new bank account. You can get a <em>prepaid sim</em> card from the airport itself.</p>
+
+<p>If you are here for anything other than tourism you should create a <strong>Singpass</strong> account. A Singpass is a common password that allows users to connect and transact with government agencies in Singapore.</p>
+
+<p><strong>Food:</strong>
+We usually either order food online or go out nearby to the office to have lunch during the weekdays.</p>
+
+<p>There are two types of dining places,</p>
+
+<ul>
+  <li>
+    <p><strong>Restaurant</strong>, Depending on the area, say, Clarke Quay, Arab Street, Robertson Quay,  the cost will be $30 to $40 for a complete meal, whereas, in restaurants near Little India, you can get a full course meal in about $15 to $30.</p>
+  </li>
+  <li>
+    <p><strong>Hawker Center</strong>, when you are out of your balance or feel like having a budget meal, hawker centre is a decent place for nonvegetarians and there are few options for vegetarians too.</p>
+  </li>
+</ul>
+
+<p><strong>Food ordering apps:</strong>
+Grab Food
+Deliveroo</p>
+
+<p>Ordering food online via any of these apps, the avg cost per meal per person will range from $8(Subway) to $20(proper Indian meal). You can buy free delivery subscriptions in the Grab app if you plan to order food quite often.</p>
+
+<p><strong>Pharmacy:</strong></p>
+
+<ul>
+  <li>Guardian</li>
+  <li>Watson</li>
+  <li>Unity (fairprice pharmacy)</li>
+</ul>
+
+<p><strong>Supermarkets &amp; Convenience Stores:</strong></p>
+
+<ul>
+  <li>NTUC FairPrice (Open 24 hours - Most of the stores)</li>
+  <li>FairPrice Finest (Till 11 PM , only a few are open 24 hours)</li>
+  <li>7-Eleven (Open 24 hours - Most of the stores)</li>
+  <li>Cheers (Open 24 hours - Most of the stores)</li>
+  <li>Esso (Open 24 hours)</li>
+</ul>
+
+<p>Last but not the least, you must know about <strong>Little India - especially Mustafa</strong>
+If you are from India or love Indian food, Little India is a must-visit place for you. There is a saviour for Indian people here called Mustafa centre (with three wings). You can find any and every needful thing from there.</p>
+
+<p><strong>Touristy places that I have explored so far:</strong>
+East coast park, Marquee, 1 Altitude, a Football match at the National Stadium, Sentosa, Arab street, Orchard Road, Clarke Quay, Boat Quay, Robertson Quay, Ce La Vi, Little India, Chimes, Fireworks on 54th birthday of Singapore….</p>
+
+<p>Stay tuned. :)</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>KDE and getting started with Season of KDE</title>
 	  <link>//KDE-Season-of-KDE</link>
 	  <author>Anu Mittal</author>
@@ -454,18 +562,6 @@ It was a great experience to meet active contributor of KDE all around the globe
 	  <guid>//winding-up-gsoc</guid>
 	  <description><![CDATA[
 	     <div dir="ltr"  trbidi="on">Time flies, truly. With the end of this month comes the end of such an amazing programme<br />"Google Summer of Code 2016".<br />As planned earlier I have successfully implemented GSL library to construct histogram for both static as well as dynamic input values.<br /><br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="http://2.bp.blogspot.com/-_NbC7Wc_ixE/V8BtP-MMS7I/AAAAAAAALy8/urITgW_7IbkCIBY9gZu4dwNNGSY7nk8VACK4B/s1600/HistogramOption.png" imageanchor="1"><img border="0" height="180" src="https://2.bp.blogspot.com/-_NbC7Wc_ixE/V8BtP-MMS7I/AAAAAAAALy8/urITgW_7IbkCIBY9gZu4dwNNGSY7nk8VACK4B/s320/HistogramOption.png" width="320" /></a><br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="http://3.bp.blogspot.com/-wNtZXjZjTwY/V8BtR5uZm4I/AAAAAAAALzE/2TDpLhNgYq8Lbw7QZIC7hKMG0_4ClASqACK4B/s1600/RandomValuePlotted.png" imageanchor="1"><img border="0" height="180" src="https://3.bp.blogspot.com/-wNtZXjZjTwY/V8BtR5uZm4I/AAAAAAAALzE/2TDpLhNgYq8Lbw7QZIC7hKMG0_4ClASqACK4B/s320/RandomValuePlotted.png" width="320" /></a><br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="http://1.bp.blogspot.com/-0SJmTkuFhQQ/V8BtThyws2I/AAAAAAAALzM/uyAI3D-hXCIaSJtIm4bWRaAl5YJVjCOFACK4B/s1600/ValueFilling.png" imageanchor="1" style="display: inline; margin-left: 1em; margin-right: 1em; text-align: center;"><img border="0" height="180" src="https://1.bp.blogspot.com/-0SJmTkuFhQQ/V8BtThyws2I/AAAAAAAALzM/uyAI3D-hXCIaSJtIm4bWRaAl5YJVjCOFACK4B/s320/ValueFilling.png" width="320" /></a><br /><br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br /><br />Now, a user can <br /><ul ><li>Draw different types of histogram for a given set of values.</li><li>Change the method of selecting the bin value.</li><li>Change background and filling of histogram graph.</li><li>Alter the properties of histogram graph scaling (auto-scale. color, pattern).</li><li>Mark the magnitude of bin ( individual or cumulative).</li><li>Draw/plot more than one curve on same worksheet to enhance the analytic study/comparison.</li></ul><div>Though the programme has come to an end, I will continue contributing in KDE community and LabPlot. I would like to thank all my mentors in Labplot.<br />Working demo:&nbsp;<a href="https://www.youtube.com/watch?v=XHjYvmInXY8&amp;feature=youtu.be">https://www.youtube.com/watch?v=XHjYvmInXY</a></div><div><br /></div><div>Thanks for reading :)</div></div>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>Mid-term post.</title>
-	  <link>//mid-term-post</link>
-	  <author>Anu Mittal</author>
-	  <pubDate>2016-06-30T17:13:00+00:00</pubDate>
-	  <guid>//mid-term-post</guid>
-	  <description><![CDATA[
-	     <div dir="ltr"  trbidi="on"><a href="http://4.bp.blogspot.com/-E6xyE01GqM0/V3VOJURj1GI/AAAAAAAAKls/wG1qY49-V3sgREYfZfpLK0iMd0WQxy-egCK4B/s1600/Screenshot_20160630_221755.png"></a><br /><br /><div >Conquered one more phase. :) I have successfully completed GSoC mid-term evaluation!</div><div ><br /></div><div >My midterm evaluation target was to create a static histogram in Labplot with an option to add new histogram among the given types and set visible advanced settings.</div><div ><br /></div><div >I have added a new histogram dock widget containing the required settings options like selecting number of bins or type of histogram or the color of the plot and much more to be added eventually like settings of the boundary, it's color, style,etc.</div><div ><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-8Wr0AgMDoNY/V3VQFBWZzKI/AAAAAAAAKmI/uxiBkH3SlD4dHyorg0M7nSCalfMAFPvQgCK4B/s1600/Screenshot_20160629_210943.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="173" src="https://1.bp.blogspot.com/-8Wr0AgMDoNY/V3VQFBWZzKI/AAAAAAAAKmI/uxiBkH3SlD4dHyorg0M7nSCalfMAFPvQgCK4B/s320/Screenshot_20160629_210943.png" width="320" /></a></div><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-E6xyE01GqM0/V3VOJURj1GI/AAAAAAAAKls/wG1qY49-V3sgREYfZfpLK0iMd0WQxy-egCK4B/s1600/Screenshot_20160630_221755.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="173" src="https://4.bp.blogspot.com/-E6xyE01GqM0/V3VOJURj1GI/AAAAAAAAKls/wG1qY49-V3sgREYfZfpLK0iMd0WQxy-egCK4B/s320/Screenshot_20160630_221755.png" width="320" /></a></div><div class="separator" style="clear: both; text-align: left;">My next task is to draw the histogram&nbsp;for any (static and dynamic) data set. It's time to implement everything that I have discussed and read about GSL libraries and QPainter.</div><div class="separator" style="clear: both; text-align: left;">Working on a large project like LabPlot is really engaging. A lot of work to be done in the coming up month. :)</div></div>
 
 	  ]]></description>
 	</item>
