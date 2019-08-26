@@ -6,7 +6,6 @@ author: Anu Mittal
 categories: 'anu'
 subclass: post
 tags:
-- iOS
 - lifestyle
 - singapore
 ---
@@ -18,10 +17,10 @@ The **first week** was mostly getting accustomed with the Commute system and rou
 **Transportation:** MRT, Buses and cabs (Grab, Go-Jek, running Taxi)
 
 **Tickets:** 
-For local transport(MRT and buses both) you can get an ezlink card from any of the MRT stations and top-up the card whenever needed.
-One alternative is setting up the Google Pay or Apple Pay (for iOS app - you should have Singapore apple ID). 
-You can also use your debit card for the same. To know more checkout SimplyGo app. 
-If none of these works out for you, you can also buy tickets from the bus driver or MRT ticket counter each time. 
+* For local transport(MRT and buses both) you can get an ezlink card from any of the MRT stations and top-up the card whenever needed.
+* One alternative is setting up the Google Pay or Apple Pay (for iOS app - you should have Singapore apple ID). 
+* You can also use your debit card for the same. To know more checkout SimplyGo app. 
+* If none of these works out for you, you can also buy tickets from the bus driver or MRT ticket counter each time. 
 
 **Cost:**
 MRT/Buses as expected are the cheapest means of transportation (Range S$0.83 - S$2.08)
@@ -35,32 +34,25 @@ The **second week** is mostly the settling week.
 There are multiple apps to help you find a place to stay, like PropertyGuru, 99.co, Roomgo, etc
 There is also a Facebook group named “Flat and Flatmates” where you can find good deals.
 
-You can either rent 1bhk or rent a room in 3bhk or so. There are two types of apartment,
-* Condo (Condominiums)
-* HDB (Housing & Development Board)
+You can either rent 1bhk or rent a room in 3bhk or so. There are two types of apartment,<br>
+* Condo (Condominiums)<br>
+* HDB (Housing & Development Board)<br>
 
 Unlike HDB, Condo apartment has facilities like swimming pool and gym. 1bhk in a condo apartment will roughly cost you around S$1,700 to S$2,000 or more per month depending on the location. HDBs are comparatively cheaper, you can get a master room in about S$1,300 - S$1,500 monthly (fully furnished).
 
 
 **SIM card and Bank Account:**
 
-
-<details>
-  <summary>Recommended options for SIM</summary>
-  <p> 
+  **Recommended options for SIM**
+  
      * Singtel: ~ $20 to $38 monthly
      * Circles.Life: ~ $18 to $38 monthly (with more/unlimited data offers)
-  </p>
-</details>
 
-<details>
-  <summary>Popular bank options:</summary>
-  <p> 
+  **Popular bank options:**
+  
     * OCBC (Oversea-Chinese Banking Corporation) - OCBC 360 Account
     * DBS (Development Bank of Singapore) - DBS Multiplier account
-  </p>
-</details>
-
+  
 You need an address proof for both, to get a sim card (postpaid) and to create a new bank account. You can get a *prepaid sim* card from the airport itself.
 
 If you are here for anything other than tourism you should create a **Singpass** account. A Singpass is a common password that allows users to connect and transact with government agencies in Singapore.
@@ -99,7 +91,7 @@ If you are from India or love Indian food, Little India is a must-visit place fo
 
 
 **Touristy places that I have explored so far:**
-East coast park, Marquee, 1 Altitude, a Football match at the National Stadium, Sentosa, Arab street, Orchard Road, Clarke Quay, Boat Quay, Robertson Quay, Ce La Vi, Little India, Chimes, Fireworks on 54th birthday of Singapore….
+East coast park, Marquee, 1 Altitude, a Football match at the National Stadium, Sentosa, Arab street, Orchard Road, Clarke Quay, Boat Quay, Robertson Quay, Ce La Vi, Little India, Chimes, Bugis (Shopping zone), Fireworks on 54th birthday of Singapore….
 
 
 Stay tuned. :) 
