@@ -44,6 +44,7 @@ Unlike HDB, Condo apartment has facilities like swimming pool and gym. 1bhk in a
 **SIM card and Bank Account:**
 
   **Recommended options for SIM**
+
   
      * Singtel: ~ $20 to $38 monthly
      * Circles.Life: ~ $18 to $38 monthly (with more/unlimited data offers)
