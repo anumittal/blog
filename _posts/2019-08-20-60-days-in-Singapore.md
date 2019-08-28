@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 60 days in Singapore
+title: Singapore - 60 days and Counting
 date: '2019-08-25T11:40:00.005-07:00'
 author: Anu Mittal
 categories: 'anu'
@@ -10,7 +10,7 @@ tags:
 - singapore
 ---
 
-**So, here is how my ~60 days in Singapore looks like.**
+**I shifted to Singapore during mid June 2019. So, here is how my ~60 days in Singapore looks like.**
 
 The **first week** was mostly getting accustomed with the Commute system and routes here, definitely apart from understanding and learning more about the company you are part of.
 
