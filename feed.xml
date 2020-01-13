@@ -8,6 +8,22 @@
     
       
       <item>
+        <title>Fixing iOS development basic errors</title>
+        
+          <description>&lt;p&gt;Error to fix: 
+xcrun: error: active developer path (“/Users/ ….”) does not exist&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 12 Jan 2020 18:40:00 +0000</pubDate>
+        <link>
+        https://anumittal.in/fixing-errors</link>
+        <guid isPermaLink="true">https://anumittal.in/fixing-errors</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Akademy 2019 - Milano, Italy</title>
         
           <description>&lt;p&gt;Another successful event of Akademy held in Milan, Italy this year(2019). As always, I feel it was a great catch up with the fellow KDE contributors. Contributors not just limited to technical domain but also from various other domains like Translation, Promotion, documentation, etc.&lt;/p&gt;

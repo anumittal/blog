@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- [[! Page Meta ]] -->
-    <title>Life is about Exploring</title>
+    <title>Fixing iOS development basic errors</title>
     <meta name="description" content="Personal blogs" />
 
     <meta name="HandheldFriendly" content="True" />
@@ -25,31 +25,31 @@
     <style>.hljs { background: none; }</style>
 
     <!-- [[! Ghost outputs important style and meta data with this tag ]] -->
-        <link rel="canonical" href="https://anumittal.in//tag/iOS/" />
+        <link rel="canonical" href="https://anumittal.in//fixing-errors" />
     <meta name="referrer" content="origin" />
     <link rel="next" href="/page2/" />
 
     <meta property="og:site_name" content="Life is about Exploring" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Life is about Exploring" />
+    <meta property="og:title" content="Fixing iOS development basic errors" />
     <meta property="og:description" content="Personal blogs" />
-    <meta property="og:url" content="https://anumittal.in//tag/iOS/" />
-    <meta property="og:image" content="/assets/images/cover4.jpg" />
+    <meta property="og:url" content="https://anumittal.in//fixing-errors" />
+    <meta property="og:image" content="/assets/images/cover1.jpg" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Life is about Exploring" />
+    <meta name="twitter:title" content="Fixing iOS development basic errors" />
     <meta name="twitter:description" content="Personal blogs" />
-    <meta name="twitter:url" content="https://anumittal.in//tag/iOS/" />
-    <meta name="twitter:image:src" content="/assets/images/cover4.jpg" />
+    <meta name="twitter:url" content="https://anumittal.in//fixing-errors" />
+    <meta name="twitter:image:src" content="/assets/images/cover1.jpg" />
 
     <script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "Website",
     "publisher": "Life is about Exploring",
-    "name": "Life is about Exploring",
-    "url": "https://anumittal.in//tag/iOS/",
-    "image": "/assets/images/cover4.jpg",
+    "name": "Fixing iOS development basic errors",
+    "url": "https://anumittal.in//fixing-errors",
+    "image": "/assets/images/cover1.jpg",
     "description": "Personal blogs"
 }
     </script>
@@ -59,7 +59,7 @@
 
 
 </head>
-<body class="tag-template nav-closed">
+<body class="home-template nav-closed">
 
     <div class="nav">
     <h3 class="nav-title">Menu</h3>
@@ -80,63 +80,32 @@
     <div class="site-wrapper">
 
         <!-- [[! Everything else gets inserted here ]] -->
-        <!-- < dynamically overriding backgrounds for tags as well as descriptions -->
+        <!-- < default -->
 
+<!-- The comment above "< default" means - insert everything in this file into -->
+    <!-- the [body] of the default.hbs template, which contains our header/footer. -->
 
-<!-- < default}} -->
-<!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
 
-<!-- If we have a tag cover, display that - else blog cover - else nothing -->
-<header class="main-header tag-head " style="background-image: url(/assets/images/cover4.jpg) ">
-    <nav class="main-nav overlay clearfix">
-        <a class="blog-logo" href="/"><img src="/assets/images/ghost.png" alt="Blog Logo" /></a>
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
         
-            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
         
     </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">Ios</h1>
-            <h2 class="page-description">
-            
-			    A 2-post collection
-            
-            </h2>
-        </div>
-    </div>
 </header>
 
-<!-- The main content area on the homepage -->
-<main id="content" class="content" role="main">
+<main class="content" role="main">
 
-    <!-- The tag below includes the post loop - partials/loop.hbs -->
-        <!-- Previous/next page links - only displayed on page 2+ -->
-    <div class="extra-pagination inner">
-        
-            <nav class="pagination" role="pagination">
-    
-    <span class="page-number"> Page 1 of 1 </span>
-    
-</nav>
-
-        
-    </div>
-
-    <!-- This is the post loop - each post will be output using this markup -->
-    
     <article class="post">
+
         <header class="post-header">
-            <h2 class="post-title"><a href="/fixing-errors">Fixing iOS development basic errors</a></h2>
-        </header>
-        <section class="post-excerpt">
-            <p>Error to fix: xcrun: error: active developer path (“/Users/ ….”) does not exist Given: Your current xcode is not installed in applications folder When: If you... <a class="read-more" href="/fixing-errors">&raquo;</a></p>
-        </section>
-        <footer class="post-meta">
-            <img class="author-thumb" src="/assets/images/anu_profile.jpg" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href='/author/anu'>Anu Mittal</a>
-            <!-- [[tags prefix=" on "]] -->
-            
+            <h1 class="post-title">Fixing iOS development basic errors</h1>
+            <section class="post-meta">
+            <!-- <a href='/'>Anu Mittal</a> -->
+            <time class="post-date" datetime="2020-01-12">12 Jan 2020</time>
+                <!-- [[tags prefix=" on "]] -->
+                
                 on
                 
                     
@@ -151,56 +120,95 @@
                        <a href='/tag/Xcode'>Xcode</a>
                     
                 
-            
-            <time class="post-date" datetime="2020-01-12">12 Jan 2020</time>
-        </footer>
-    </article>
-    
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="/Multithreading-in-iOS">📱 Getting started with the multithreading in iOS</a></h2>
+                
+            </section>
         </header>
-        <section class="post-excerpt">
-            <p>With the emergence of multi-core processing chips in all our mobile devices, it has given rise to the possibility of performing multiple tasks simultaneously in the... <a class="read-more" href="/Multithreading-in-iOS">&raquo;</a></p>
+
+        <section class="post-content">
+
+            <p>Error to fix: 
+xcrun: error: active developer path (“/Users/ ….”) does not exist</p>
+
+<p>Given: Your current xcode is not installed in applications folder
+When: If you update your Xcode from App Store
+Then: Your App Store downloaded Xcode version will be move to application folder
+and your Xcode-select path might change and result in the above error.</p>
+
+<p>To fix: 
+Update your xcode path by running the following command: 
+sudo xcode-select –switch /Applications/Xcode.app/Contents/Developer/</p>
+
+
         </section>
-        <footer class="post-meta">
-            <img class="author-thumb" src="/assets/images/anu_profile.jpg" alt="Author image" nopin="nopin" />
-            <!-- author -->
-            <a href='/author/anu'>Anu Mittal</a>
-            <!-- [[tags prefix=" on "]] -->
+
+        <footer class="post-footer">
+
+            <!-- Everything inside the #author tags pulls data from the author -->
+            <!-- #author-->
+
             
-                on
-                
-                    
-                       <a href='/tag/iOS'>Ios</a>,
-                    
-                
-                    
-                       <a href='/tag/tech'>Tech</a>,
-                    
-                
-                    
-                       <a href='/tag/multithreading'>Multithreading</a>
-                    
-                
+            <figure class="author-image">
+                <a class="img" href="/author/anu" style="background-image: url(/assets/images/anu_profile.jpg)"><span class="hidden">Anu Mittal's Picture</span></a>
+            </figure>
             
-            <time class="post-date" datetime="2018-11-25">25 Nov 2018</time>
+
+            <section class="author">
+                <h4><a href="/author/anu">Anu Mittal</a></h4>
+
+                
+                    <p> Software Developer, GSoCer, Open Source Tech Enthusiast</p>
+                
+                <div class="author-meta">
+                    <span class="author-location icon-location"> Delhi, IN</span>
+                    <span class="author-link icon-link"><a href="https://anumittal.in"> anumittal.in/</a></span>
+                </div>
+            </section>
+
+            <!-- /author  -->
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="http://twitter.com/share?text=Fixing iOS development basic errors&amp;url=https://anumittal.infixing-errors"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://anumittal.infixing-errors"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=https://anumittal.infixing-errors"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+            <!-- Add Disqus Comments -->
+            
+
         </footer>
+
     </article>
-    
-
-    <!-- Previous/next page links - displayed on every page -->
-    
-        <nav class="pagination" role="pagination">
-    
-    <span class="page-number"> Page 1 of 1 </span>
-    
-</nav>
-
-    
-
 
 </main>
+
+<aside class="read-next">
+
+    <!-- [[! next_post ]] -->
+    
+    <!-- [[! /next_post ]] -->
+    <!-- [[! prev_post ]] -->
+    
+        <a class="read-next-story prev no-cover" href="/Akademy-2019">
+            <section class="post">
+                <h2>Akademy 2019 - Milano, Italy</h2>
+                <p>Another successful event of Akademy held in Milan, Italy this year(2019). As always, I feel...</p>
+            </section>
+        </a>
+    
+    <!-- [[! /prev_post ]] -->
+</aside>
+
+<!-- /post -->
 
 
         <footer class="site-footer clearfix">
