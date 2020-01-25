@@ -126,17 +126,18 @@
 
         <section class="post-content">
 
-            <p>Error to fix: 
-xcrun: error: active developer path (“/Users/ ….”) does not exist</p>
+            <h1 id="error-to-fix">Error to fix:</h1>
 
-<p>Given: Your current xcode is not installed in applications folder
-When: If you update your Xcode from App Store
-Then: Your App Store downloaded Xcode version will be move to application folder
-and your Xcode-select path might change and result in the above error.</p>
+<p>xcrun: error: active developer path (“/Users/ ….”) does not exist</p>
 
-<p>To fix: 
-Update your xcode path by running the following command: 
-sudo xcode-select –switch /Applications/Xcode.app/Contents/Developer/</p>
+<p><strong>Given:</strong> Your current xcode is not installed in applications folder.\
+<strong>When:</strong> If you update your Xcode from App Store.\
+<strong>Then:</strong>  Your App Store downloaded Xcode version will be move to application folder
+and your Xcode-select path might change and result in the above error.\
+<br />
+<strong>To fix:</strong>\
+Update your xcode path by running the following command:\
+<code class="highlighter-rouge">sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer/</code></p>
 
 
         </section>
