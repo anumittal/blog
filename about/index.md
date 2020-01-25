@@ -2,15 +2,19 @@
 layout: page
 title: About
 navigation: True
-logo: 'assets/images/ghost.png'
 current: about
 ---
 
-I am Anu Mittal, a **Software Developer** in an Indian company, [Zomato](https://www.zomato.com/ncr). I completed my bachelors in computer science in 2016. A FOSS enthusiast, I started its journey in 2014 with [KDE](https://www.kde.org/) involved in programs like Season of KDE '14 and Google Summer of Code '16 as a student developer.
-I've also been a speaker at various tech conferences sharing my experiences and work in both open source and KDE.
+I am **Anu Mittal**, an **iOS developer** at Circles.Life `(Telco company)` based out of Singapore.\
+<br>
+I have worked at OYO `(a hotel booking platform)` and Zomato `(a restaurant search and delivery platform)` based out of India in the past.
+I also carry the experience of working with the backend team for a year at Zomato.\
+<br>
+Being an open-source enthusiast, during my college time, I was a `Google Summer of Code developer` at KDE where I worked on the LabPlot software. I also mentored students for `Google Code-In` challenge with KDE.\
+<br>
+I am a co-organizer of `Swift India - Delhi` meetup.
+I like to attend meetups and conferences for I believe in learning and growing together.
 
-When not at work, you can find me: traveling, clicking pictures, dancing or sleeping :D
 
 Github: [anumittal](https://github.com/anumittal)
 
-Instagram handle: [a_nu_view](https://www.instagram.com/a_nu_view/)
