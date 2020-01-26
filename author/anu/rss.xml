@@ -546,13 +546,21 @@ It was a great experience to meet active contributor of KDE all around the globe
 	  <pubDate>2018-04-02T18:40:00+00:00</pubDate>
 	  <guid>//meaningful-commit-messages</guid>
 	  <description><![CDATA[
-	     <p>A short note, your git commit messages should start with <code class="highlighter-rouge">Fix</code> or <code class="highlighter-rouge">Add</code> instead of <code class="highlighter-rouge">Fixed</code> or <code class="highlighter-rouge">Added</code>, which fits well in :</p>
+	     <p>A short note, your git <strong>commit messages</strong> should start with <code class="highlighter-rouge">Fix</code> or <code class="highlighter-rouge">Add</code> instead of <code class="highlighter-rouge">Fixed</code> or <code class="highlighter-rouge">Added</code>.
+<br /> It should fit well in:</p>
 
-<p>When merged/applied, this patch/commit will <code class="highlighter-rouge">&lt;commit message&gt;</code></p>
+<p><strong>When merged/applied, this patch/commit will</strong> <code class="highlighter-rouge">&lt;commit message&gt;</code></p>
 
-<p>Example: When merged, this commit will “fix the photo-viewer crash”</p>
+<p>Example:
+<br />
+ <em>When merged, this commit will “fix the photo-viewer crash”</em></p>
 
-<p>Reference : <a href="https://github.com/erlang/otp/wiki/writing-good-commit-messages">https://github.com/erlang/otp/wiki/writing-good-commit-messages</a></p>
+<h2> Reference :</h2>
+
+<p><a href="https://github.com/erlang/otp/wiki/writing-good-commit-messages">Writing Good Commit Messages by Erlang</a>
+<br />
+<a href="https://chris.beams.io/posts/git-commit/">Git Commit by Chris</a></p>
+
 
 	  ]]></description>
 	</item>
