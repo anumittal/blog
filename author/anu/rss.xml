@@ -109,11 +109,13 @@ By embracing the shades of grey, you can navigate complex engineering challenges
 
 <p><strong>Transportation:</strong> MRT, Buses and cabs (Grab, Go-Jek, running Taxi)</p>
 
-<p><strong>Tickets:</strong> 
-* For local transport(MRT and buses both) you can get an ezlink card from any of the MRT stations and top-up the card whenever needed.
-* One alternative is setting up the Google Pay or Apple Pay (for iOS app - you should have Singapore apple ID). 
-* You can also use your debit card for the same. To know more checkout SimplyGo app. 
-* If none of these works out for you, you can also buy tickets from the bus driver or MRT ticket counter each time.</p>
+<p><strong>Tickets:</strong></p>
+<ul>
+  <li>For local transport(MRT and buses both) you can get an ezlink card from any of the MRT stations and top-up the card whenever needed.</li>
+  <li>One alternative is setting up the Google Pay or Apple Pay (for iOS app - you should have Singapore apple ID).</li>
+  <li>You can also use your debit card for the same. To know more checkout SimplyGo app.</li>
+  <li>If none of these works out for you, you can also buy tickets from the bus driver or MRT ticket counter each time.</li>
+</ul>
 
 <p><strong>Cost:</strong>
 MRT/Buses as expected are the cheapest means of transportation (Range S$0.83 - S$2.08)
@@ -127,9 +129,11 @@ Cabs are quite costly (avg. $10 to $20). Grab is usually costlier than Go-Jek. I
 There are multiple apps to help you find a place to stay, like PropertyGuru, 99.co, Roomgo, etc
 There is also a Facebook group named “Flat and Flatmates” where you can find good deals.</p>
 
-<p>You can either rent 1bhk or rent a room in 3bhk or so. There are two types of apartment,<br />
-* Condo (Condominiums)<br />
-* HDB (Housing &amp; Development Board)<br /></p>
+<p>You can either rent 1bhk or rent a room in 3bhk or so. There are two types of apartment,<br /></p>
+<ul>
+  <li>Condo (Condominiums)<br /></li>
+  <li>HDB (Housing &amp; Development Board)<br /></li>
+</ul>
 
 <p>Unlike HDB, Condo apartment has facilities like swimming pool and gym. 1bhk in a condo apartment will roughly cost you around S$1,700 to S$2,000 or more per month depending on the location. HDBs are comparatively cheaper, you can get a master room in about S$1,300 - S$1,500 monthly (fully furnished).</p>
 
@@ -137,17 +141,15 @@ There is also a Facebook group named “Flat and Flatmates” where you can find
 
 <p><strong>Recommended options for SIM</strong></p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code> * Singtel: ~ $20 to $38 monthly
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> * Singtel: ~ $20 to $38 monthly
  * Circles.Life: ~ $18 to $38 monthly (with more/unlimited data offers)
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p><strong>Popular bank options:</strong></p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>* OCBC (Oversea-Chinese Banking Corporation) - OCBC 360 Account
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* OCBC (Oversea-Chinese Banking Corporation) - OCBC 360 Account
 * DBS (Development Bank of Singapore) - DBS Multiplier account
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>You need an address proof for both, to get a sim card (postpaid) and to create a new bank account. You can get a <em>prepaid sim</em> card from the airport itself.</p>
 
@@ -206,7 +208,7 @@ East coast park, Marquee, 1 Altitude, a Football match at the National Stadium, 
 	  <title>KDE and getting started with Season of KDE</title>
 	  <link>//KDE-Season-of-KDE</link>
 	  <author>Anu Mittal</author>
-	  <pubDate>2019-07-29T18:40:00+00:00</pubDate>
+	  <pubDate>2019-07-29T11:40:00-07:00</pubDate>
 	  <guid>//KDE-Season-of-KDE</guid>
 	  <description><![CDATA[
 	     <p><br /></p>
@@ -214,11 +216,13 @@ East coast park, Marquee, 1 Altitude, a Football match at the National Stadium, 
 <p>KDE stands for <strong>K Desktop Environment</strong>. It is a desktop environment for Linux based operation system. You can think KDE as a GUI for Linux OS. KDE has proved Linux users to make it use as easy as they use windows. KDE provides Linux users a graphical interface to choose their own customized desktop environment.</p>
 
 <p><strong>Why KDE?</strong>
-<br />
-&gt; <strong>Integration</strong>: KDE is well integrated with many applications of all kinds. Applications do not have to be written specifically for KDE, and all of the applications that are typically part of the GNOME desktop also work just fine in KDE <br />
-&gt; <strong>Looks</strong>: I like the many ways in which I can change the look of the KDE Plasma workspace. Sometimes we like to set colours and looks to suit our moods. Icons, widgets, fonts, pointers, the window decorations, and much more can also be changed, and you can download and install new ones if those already installed are not right for you. <br />
-&gt; <strong>Flexibility</strong>: KDE allows me to define the functions of the mouse buttons, how windows behave, and how to deal with new devices that are plugged in such as whether to mount them if they are storage devices and which applications to open automatically.
 <br /></p>
+<blockquote>
+  <p><strong>Integration</strong>: KDE is well integrated with many applications of all kinds. Applications do not have to be written specifically for KDE, and all of the applications that are typically part of the GNOME desktop also work just fine in KDE <br />
+<strong>Looks</strong>: I like the many ways in which I can change the look of the KDE Plasma workspace. Sometimes we like to set colours and looks to suit our moods. Icons, widgets, fonts, pointers, the window decorations, and much more can also be changed, and you can download and install new ones if those already installed are not right for you. <br />
+<strong>Flexibility</strong>: KDE allows me to define the functions of the mouse buttons, how windows behave, and how to deal with new devices that are plugged in such as whether to mount them if they are storage devices and which applications to open automatically.
+<br /></p>
+</blockquote>
 
 <p>And here is where the GUI desktop combines with the CLI to enhance user exp. The feature I find most useful is the fact that the Konsole window allows for multiple tabs with a separate terminal session in each tab.</p>
 
@@ -241,35 +245,53 @@ And the best part is for contributing in KDE and become a part of you need not n
 
 <p>KDE has many application domains which can be categorized as</p>
 
-<p><br />1. <strong>KDE - Development</strong>
-- e.g. KDevelop IDE for CPP files KDiff3 and Kompare creating diff patch</p>
+<p><br />1. <strong>KDE - Development</strong></p>
+<ul>
+  <li>e.g. KDevelop IDE for CPP files KDiff3 and Kompare creating diff patch</li>
+</ul>
 
-<p><br />2. <strong>KDE - Education</strong>
-- e.g. Kalzium for chemistry     Kletters for alphabet edu   KAlgebra for maths</p>
+<p><br />2. <strong>KDE - Education</strong></p>
+<ul>
+  <li>e.g. Kalzium for chemistry     Kletters for alphabet edu   KAlgebra for maths</li>
+</ul>
 
-<p><br />3. <strong>KDE - Games</strong>
-- e.g. KDiamond: Three-in-a-row game    KPatience: Patience Card Game            KSudoku: Sudoku Game</p>
+<p><br />3. <strong>KDE - Games</strong></p>
+<ul>
+  <li>e.g. KDiamond: Three-in-a-row game    KPatience: Patience Card Game            KSudoku: Sudoku Game</li>
+</ul>
 
-<p><br />4. <strong>KDE - Graphics</strong>
-- e.g. KPhotoAlbum    Photo Album    KolourPaint Paint Program  <br />
-Karbon Scalable Graphics</p>
+<p><br />4. <strong>KDE - Graphics</strong></p>
+<ul>
+  <li>e.g. KPhotoAlbum    Photo Album    KolourPaint Paint Program  <br />
+Karbon Scalable Graphics</li>
+</ul>
 
-<p><br />5. <strong>KDE - Internet</strong>
-- e.g. KNode News Reader    KRDC Remote Desktop Client    KGet Download Manager</p>
+<p><br />5. <strong>KDE - Internet</strong></p>
+<ul>
+  <li>e.g. KNode News Reader    KRDC Remote Desktop Client    KGet Download Manager</li>
+</ul>
 
-<p><br />6. <strong>KDE - Multimedia</strong>
-- e.g. KMPlayer Media Player    KsCD CD Player    KMix Sound Mixer</p>
+<p><br />6. <strong>KDE - Multimedia</strong></p>
+<ul>
+  <li>e.g. KMPlayer Media Player    KsCD CD Player    KMix Sound Mixer</li>
+</ul>
 
-<p><br />7. <strong>KDE - Office</strong>
-- e.g. Kontact Personal Information Manager        KOrganizer Personal Organizer
-Plan Project Management</p>
+<p><br />7. <strong>KDE - Office</strong></p>
+<ul>
+  <li>e.g. Kontact Personal Information Manager        KOrganizer Personal Organizer
+Plan Project Management</li>
+</ul>
 
-<p><br />8. <strong>KDE - System</strong>
-- e.g. Konsole Terminal     Dolphin File Manager    KSystemLog  System Log Viewer</p>
+<p><br />8. <strong>KDE - System</strong></p>
+<ul>
+  <li>e.g. Konsole Terminal     Dolphin File Manager    KSystemLog  System Log Viewer</li>
+</ul>
 
-<p><br />9. <strong>KDE - Utilities</strong>
-- e.g. KCalc Scientific Calculator     KJots Note Taker     KTimer Countdown Launcher
-KFileReplace Search &amp; Replace Tool</p>
+<p><br />9. <strong>KDE - Utilities</strong></p>
+<ul>
+  <li>e.g. KCalc Scientific Calculator     KJots Note Taker     KTimer Countdown Launcher
+KFileReplace Search &amp; Replace Tool</li>
+</ul>
 
 <p>There are more than 200 applciations in the KDE domain, refer the list <a href="https://www.kde.org/applications/">here</a>
 <br /><br /></p>
@@ -283,24 +305,25 @@ Purpose of the SoK programme is to support as many new budding developers as int
 It is managed by the same team of admins and mentors that takes care of Google Summer of Code and Google Code-in matters for KDE, so we can say it is very much like Google Summer of Code
 <br />
 <strong>Why SoK:</strong>
-<br />
-- Flexible timeline
-- Best Mentorship
-- Goodies
-- Certificate
-- Experience
-- Exposure
+<br /></p>
+<ul>
+  <li>Flexible timeline</li>
+  <li>Best Mentorship</li>
+  <li>Goodies</li>
+  <li>Certificate</li>
+  <li>Experience</li>
+  <li>Exposure
 <br />
 <strong>Getting started with SoK/contributing to any of the projects in KDE?</strong>
 <br />
-It is highly recommended for you to first go through some of the applications you like and look at the technologies used, which mostly are CPP, Qt and QML. Refer <a href="https://techbase.kde.org/Contribute">link</a> which provides all the information about:
-- Mailing List/ News
-- Reporting bugs
-- Coding.
+It is highly recommended for you to first go through some of the applications you like and look at the technologies used, which mostly are CPP, Qt and QML. Refer <a href="https://techbase.kde.org/Contribute">link</a> which provides all the information about:</li>
+  <li>Mailing List/ News</li>
+  <li>Reporting bugs</li>
+  <li>
+    <p>Coding.
 <br />
 Now let’s study each if the process a little more in detail:</p>
-
-<ul>
+  </li>
   <li><strong>First</strong>: <em>how to subscribe to the mailing lists, What are the norms and where can you find the news feeds (The Dot)</em>
 <br />
 As already mentioned mailing lists are the best way to know the current status of any
@@ -338,7 +361,7 @@ If you don’t get help from there then you can at any time mail your queries on
 	  <title>📱 Getting started with the multithreading in iOS</title>
 	  <link>//Multithreading-in-iOS</link>
 	  <author>Anu Mittal</author>
-	  <pubDate>2018-11-25T18:40:00+00:00</pubDate>
+	  <pubDate>2018-11-25T10:40:00-08:00</pubDate>
 	  <guid>//Multithreading-in-iOS</guid>
 	  <description><![CDATA[
 	     <p><br />
@@ -353,16 +376,18 @@ it says:</p>
 
 <p>In order to facilitate and safely manage these additional threads we need a framework like <a href="https://developer.apple.com/documentation/DISPATCH">dispatch</a></p>
 
-<p>✍🏼 <strong>Ways to achieve multithreading:</strong><br />
-- Grand Central Dispatch<br />
-- <a href="https://developer.apple.com/documentation/foundation/thread">NSThread</a><br />
-- <a href="https://developer.apple.com/documentation/foundation/operationqueue">NSOperationQueue</a></p>
+<p>✍🏼 <strong>Ways to achieve multithreading:</strong></p>
+<ul>
+  <li>Grand Central Dispatch</li>
+  <li><a href="https://developer.apple.com/documentation/foundation/thread">NSThread</a></li>
+  <li><a href="https://developer.apple.com/documentation/foundation/operationqueue">NSOperationQueue</a></li>
+</ul>
 
 <p>This blog assumes you have basic understanding of these types.</p>
 
 <p>When it comes to comparing these methods:</p>
 
-<p><code class="highlighter-rouge">Code/Structural Origins:</code></p>
+<p><code class="language-plaintext highlighter-rouge">Code/Structural Origins:</code></p>
 
 <ul>
   <li>GCD is a low-level C-based API.</li>
@@ -370,7 +395,7 @@ it says:</p>
   <li>NSThread is an NSObject (uses pthreads).</li>
 </ul>
 
-<p><code class="highlighter-rouge">Complexity comparison:</code></p>
+<p><code class="language-plaintext highlighter-rouge">Complexity comparison:</code></p>
 
 <ul>
   <li>For GCD implementation is very light-weight</li>
@@ -378,7 +403,7 @@ it says:</p>
   <li>NSThread is just wrapper to pthreads therefore making it lightweight too.</li>
 </ul>
 
-<p><code class="highlighter-rouge">NSOperation advantages over GCD and NSThread:</code><br />
+<p><code class="language-plaintext highlighter-rouge">NSOperation advantages over GCD and NSThread:</code><br />
 You can:</p>
 
 <ul>
@@ -392,12 +417,12 @@ You can:</p>
 
 <p>Once you have decided which methodology you want to use, you need to decide the order and priority of it.</p>
 
-<p><code class="highlighter-rouge">Order of Operation:</code><br />
+<p><code class="language-plaintext highlighter-rouge">Order of Operation:</code><br />
 Queues can be of two type: Serial Queue or Concurrent Queue which runs the tasks synchronously and asynchronously respectively
 <!--[Queues][queuesType]-->
 <img src="/assets/images/multithreadingiOS/queuesType.png" alt="Queues" width="100%" /></p>
 
-<p><code class="highlighter-rouge">Priority of operations:</code><br />
+<p><code class="language-plaintext highlighter-rouge">Priority of operations:</code><br />
 Priority is defined as Quality of Service known as QoS and is of following four types:</p>
 
 <!--[QoS][QoS]-->
@@ -486,10 +511,10 @@ In the sync_sync block, everything happens in the most calmest way. :blush: it p
 
 <p>Syntax:<br />
 <strong>Serial queue:</strong><br />
-<code class="highlighter-rouge">dispatch_queue_t serial_queue = dispatch_queue_create("your.queue.label", DISPATCH_QUEUE_SERIAL);</code></p>
+<code class="language-plaintext highlighter-rouge">dispatch_queue_t serial_queue = dispatch_queue_create("your.queue.label", DISPATCH_QUEUE_SERIAL);</code></p>
 
 <p><strong>Concurrent queue:</strong><br />
-<code class="highlighter-rouge">dispatch_queue_t concurrent_queue = dispatch_queue_create("your.queue.label", DISPATCH_QUEUE_CONCURRENT);</code></p>
+<code class="language-plaintext highlighter-rouge">dispatch_queue_t concurrent_queue = dispatch_queue_create("your.queue.label", DISPATCH_QUEUE_CONCURRENT);</code></p>
 
 <p><strong>Deadlocks</strong><br />
 You should always resist passing same queue (especially a serial queue) to multiple dispatch blocks, as it might lead to deadlock.</p>
@@ -511,7 +536,7 @@ You should always resist passing same queue (especially a serial queue) to multi
 <img src="/assets/images/multithreadingiOS/smallestDeadlock.png" alt="smallestDeadlock" width="100%" />
 This is claimed to be the shortest code to create a deadlock. I hope by now you must be able to think in the direction to answer as to why would this create a deadlock.</p>
 
-<p><code class="highlighter-rouge">Hint:</code> main queue is a serial queue, this code is trying to dispatch the new code block synchronously on the same queue which is running &amp; waiting on the dispatch_sync.</p>
+<p><code class="language-plaintext highlighter-rouge">Hint:</code> main queue is a serial queue, this code is trying to dispatch the new code block synchronously on the same queue which is running &amp; waiting on the dispatch_sync.</p>
 
 <p>If this all feels little overwhelming then it’s ok. The more you try out examples the easier it is to understand. Please let me know if you would like to learn any of these topics more in detail.
 You can find the project on my <a href="https://github.com/anumittal/multithreading-iOS">github</a>.</p>
@@ -527,7 +552,7 @@ Thanks for reading. 👓</p>
 	  <title>Akademy 2018, Vienna</title>
 	  <link>//akademy-vienna</link>
 	  <author>Anu Mittal</author>
-	  <pubDate>2018-10-02T18:40:00+00:00</pubDate>
+	  <pubDate>2018-10-02T11:40:00-07:00</pubDate>
 	  <guid>//akademy-vienna</guid>
 	  <description><![CDATA[
 	     <!--[Campus][akademy-campus]-->
@@ -568,13 +593,13 @@ It was a great experience to meet active contributor of KDE all around the globe
 	  <title>Meaningful commit messages</title>
 	  <link>//meaningful-commit-messages</link>
 	  <author>Anu Mittal</author>
-	  <pubDate>2018-04-02T18:40:00+00:00</pubDate>
+	  <pubDate>2018-04-02T11:40:00-07:00</pubDate>
 	  <guid>//meaningful-commit-messages</guid>
 	  <description><![CDATA[
-	     <p>A short note, your git <strong>commit messages</strong> should start with <code class="highlighter-rouge">Fix</code> or <code class="highlighter-rouge">Add</code> instead of <code class="highlighter-rouge">Fixed</code> or <code class="highlighter-rouge">Added</code>.
+	     <p>A short note, your git <strong>commit messages</strong> should start with <code class="language-plaintext highlighter-rouge">Fix</code> or <code class="language-plaintext highlighter-rouge">Add</code> instead of <code class="language-plaintext highlighter-rouge">Fixed</code> or <code class="language-plaintext highlighter-rouge">Added</code>.
 <br /> It should fit well in:</p>
 
-<p><strong>When merged/applied, this patch/commit will</strong> <code class="highlighter-rouge">&lt;commit message&gt;</code></p>
+<p><strong>When merged/applied, this patch/commit will</strong> <code class="language-plaintext highlighter-rouge">&lt;commit message&gt;</code></p>
 
 <p>Example:
 <br />
@@ -594,7 +619,7 @@ It was a great experience to meet active contributor of KDE all around the globe
 	  <title>LinuxChix Meet up experience!</title>
 	  <link>//linuxchix-meet-up-experience</link>
 	  <author>Anu Mittal</author>
-	  <pubDate>2017-09-17T18:40:00+00:00</pubDate>
+	  <pubDate>2017-09-17T11:40:00-07:00</pubDate>
 	  <guid>//linuxchix-meet-up-experience</guid>
 	  <description><![CDATA[
 	     <div dir="ltr"  trbidi="on">Hi all,<br /><br />Today I got an opportunity to celebrate Linux's 26th anniversary (17th September 1991) with the LinuxChix India team (<a href="http://india.linuxchix.org/">http://india.linuxchix.org/</a>).<br /><br />I gave a talk on:<br /><br /><ul ><li>Unix, GNU, and &nbsp;Linux's history&nbsp;</li><li>And shared my experience using Linux, Ubuntu, and Kubuntu</li></ul><br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="https://4.bp.blogspot.com/-xtJqJqHepf8/Wb6-glYazhI/AAAAAAAAsBk/2PU2-f13wPwio2a_7c3o1oYGIHG2L9BsgCLcBGAs/s1600/linux.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="720" data-original-width="1107" height="257" src="https://4.bp.blogspot.com/-xtJqJqHepf8/Wb6-glYazhI/AAAAAAAAsBk/2PU2-f13wPwio2a_7c3o1oYGIHG2L9BsgCLcBGAs/s400/linux.jpg" width="400" /></a></div><br />It was a great interactive session. We shared some thoughts about:<br /><br /><ul ><li>SSH's working</li><li>Linux&nbsp;distributions</li><li>Flavours of Ubuntu</li><li>Kubuntu, KDE Plasma 5 and KDE frameworks,&nbsp;</li><li>Linux file system&nbsp;</li><li>Kernels and its role</li><li>Various Linux Commands</li></ul><br />I would like to thank Shivani Bhardwaj and Priyal Trivedi for organising the meetup and Amit Kumar for introducing me to the team.<br /><br />Link to the slides of my talk:<br /><a href="https://drive.google.com/file/d/0B9XiOPGG2l_vcTNNcEVhVjV1RnM/view?usp=sharing">https://drive.google.com/file/d/0B9XiOPGG2l_vcTNNcEVhVjV1RnM/view?usp=sharing</a><br /><div class="separator" style="clear: both; text-align: center;"><span id="goog_181807117"></span></div></div>
@@ -606,15 +631,17 @@ It was a great experience to meet active contributor of KDE all around the globe
 	  <title>Akademy 2017 -  A wonderful experience</title>
 	  <link>//akademy-2017-wonderful-experience</link>
 	  <author>Anu Mittal</author>
-	  <pubDate>2017-08-16T20:30:00+00:00</pubDate>
+	  <pubDate>2017-08-16T13:30:00-07:00</pubDate>
 	  <guid>//akademy-2017-wonderful-experience</guid>
 	  <description><![CDATA[
 	     <p><strong>Hola Amigos!</strong><br /><br />
 <strong>Akademy 2017</strong> was such a great experience, that I would love to share with you all in this post. <br /> For those who are unaware about Akademy, it’s an annual <a href="https://akademy.kde.org">world summit of KDE</a>.
-<br /> This year, Akademy was held in <strong>Almeria, Spain</strong>.
-&gt;Akademy features a 2-day conference with presentations on the latest KDE developments, followed by 4 days of workshops, Birds of a Feather (BoF) and coding sessions.
+<br /> This year, Akademy was held in <strong>Almeria, Spain</strong>.</p>
+<blockquote>
+  <p>Akademy features a 2-day conference with presentations on the latest KDE developments, followed by 4 days of workshops, Birds of a Feather (BoF) and coding sessions.
 <br />There are so many interesting talks given by some real tech enthusiasts, who are amiable and super cool. It is a great opportunity to meet people in person whom you have been communicating just knowing their IRC nickname.<br /><br />So, as mentioned it started with some really interesting presentations on <em>Plasma desktops, Plasma mobile, Ruqola, digiKam, WikiData, GCompris, KIO library, Calligra, KDE neon, Slimbook, Translating Challenges</em>, and many more. We were fortunate to have <strong>Robert Kaye</strong> and <strong>Antonio Larrosa</strong> as our keynote speaker. These presentations were followed by BoF sessions and Workshops.<br /><br /><strong>I conducted a workshop on Qt Quick Control 2</strong>, <em>Paul Brown</em> had some awesome stuff to share on what data should be visible to a viewer who visits your site or uses your product. Parallelly there was a BoF session, where the team brainstormed on Plasma mobile and Plasma vision.<br /><br />It was such pleasure to meet <em>Valorie, Aleix Pol, Albert, Lydia, John Samuel, David, Timothee, Vasudha, Jonathan</em> and so many more active contributes of KDE.<br />[Memories of Akademy 2017]
-&gt;<strong>How is KDE Akademy different than conf.kde.in?</strong><br />I have been a part of <a href="conf.kde.in">KDE India conference</a> held in Jaipur in 2016. Which looked like this: <br /> When you see this, you find so many students, keen to learn about <em>FOSS and KDE community</em>. <br /> All are budding developers with some spark and unexplored ideas in their mind. So such type of conferences held by KDE in India help these unexplored ideas to come into execution by using and developing features in the various softwares build by KDE developers. <br /> Whereas, when you look at these bunch of developers here in this picture: <br /> This is the group photograph of Akademy 2017 attendees. They are the backbone of all softwares in KDE, expert and deeply involved in contributing in KDE.</p>
+<strong>How is KDE Akademy different than conf.kde.in?</strong><br />I have been a part of <a href="conf.kde.in">KDE India conference</a> held in Jaipur in 2016. Which looked like this: <br /> When you see this, you find so many students, keen to learn about <em>FOSS and KDE community</em>. <br /> All are budding developers with some spark and unexplored ideas in their mind. So such type of conferences held by KDE in India help these unexplored ideas to come into execution by using and developing features in the various softwares build by KDE developers. <br /> Whereas, when you look at these bunch of developers here in this picture: <br /> This is the group photograph of Akademy 2017 attendees. They are the backbone of all softwares in KDE, expert and deeply involved in contributing in KDE.</p>
+</blockquote>
 
 <p><br /><em>I would like to thank KDE for giving me this opportunity. It has added great experience and wonderful memories to my journey of foss development</em> <br /><br />PS. Help make KDE apps and Plasma easier to use, more convenient and accessibl by supporting <a href="https://dot.kde.org/2017/08/08/randa-meetings-2017-its-all-about-accessibility">#Randa2017</a></p>
 
@@ -625,22 +652,10 @@ It was a great experience to meet active contributor of KDE all around the globe
 	  <title>Akademy 2017</title>
 	  <link>//akademy-2017</link>
 	  <author>Anu Mittal</author>
-	  <pubDate>2017-07-11T20:14:00+00:00</pubDate>
+	  <pubDate>2017-07-11T13:14:00-07:00</pubDate>
 	  <guid>//akademy-2017</guid>
 	  <description><![CDATA[
 	     <div dir="ltr"  trbidi="on"><div class="separator" style="clear: both; text-align: center;"><a href="https://2.bp.blogspot.com/-QibTxHw4d88/WWUZBOerlwI/AAAAAAAAfCA/MeTSjLHSBvIJzq9sPz7G4bh0clXMWMw-gCLcBGAs/s1600/Akademy2017_banner.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="206" data-original-width="840" height="97" src="https://2.bp.blogspot.com/-QibTxHw4d88/WWUZBOerlwI/AAAAAAAAfCA/MeTSjLHSBvIJzq9sPz7G4bh0clXMWMw-gCLcBGAs/s400/Akademy2017_banner.png" width="400" /></a></div><br /><br /><span id="docs-internal-guid-583f1db2-40b7-220c-368a-498bf31af140"></span><br /><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; color: black; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Hi all,</span><span style="background-color: transparent; color: black; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br class="kix-line-break" /></span><span style="background-color: transparent; color: black; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br class="kix-line-break" /></span><span style="background-color: transparent; color: black; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">This blog is to assist participants attending the Conference Akademy 2017 at Almeria, Spain.</span><span style="background-color: transparent; color: black; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br class="kix-line-break" /></span><span style="background-color: transparent; color: black; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">There will be a workshop titled "Playing with the amalgam of QML and JavaScript" conducted by me.</span><span style="background-color: transparent; color: black; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br class="kix-line-break" /></span><span style="background-color: transparent; color: black; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Timings: 10:30 - 12:15 on 24th July 2017.</span></div><span style="color: #222222; font-family: &quot;verdana&quot; , sans-serif;"><span style="background-color: white; font-size: 12.8px;"><br /></span></span> <span style="color: #222222; font-family: &quot;verdana&quot; , sans-serif;"><span style="background-color: white; font-size: 12.8px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href="http://2.bp.blogspot.com/-JDD7aiWNWs4/WWUvAtL8vDI/AAAAAAAAfCw/ZtRMnSisIecsAHDcjVl-Dbl34kpP8TbJACK4BGAYYCw/s1600/js-qt.png" imageanchor="1"><img border="0" height="141" src="https://2.bp.blogspot.com/-JDD7aiWNWs4/WWUvAtL8vDI/AAAAAAAAfCw/ZtRMnSisIecsAHDcjVl-Dbl34kpP8TbJACK4BGAYYCw/s320/js-qt.png" width="320" /></a></span></span><br /><span style="color: #222222; font-family: &quot;verdana&quot; , sans-serif;"><span style="background-color: white; font-size: 12.8px;"><br /></span></span><br /><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: white; color: #222222; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Instructions for the </span><span style="background-color: white; color: black; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">p</span><span style="background-color: white; color: #222222; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">articipants:</span></div><ul style="margin-bottom: 0pt; margin-top: 0pt;"><li dir="ltr" style="background-color: transparent; color: #222222; font-family: Georgia; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; list-style-type: disc; margin-left: 11pt; text-decoration: none; vertical-align: baseline;"><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; color: #222222; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">The tutorial will only assume a basic knowledge of using Qt Creator [</span><a href="http://doc.qt.io/qtcreator/index.html" style="text-decoration: none;"><span style="background-color: transparent; color: #1155cc; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;">http://doc.qt.io/qtcreator/index.html</span></a><span style="background-color: transparent; color: #222222; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">].</span></div></li><li dir="ltr" style="background-color: transparent; color: #222222; font-family: Georgia; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; list-style-type: disc; margin-left: 11pt; text-decoration: none; vertical-align: baseline;"><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; color: #222222; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">No prior knowledge of QML is required, although it is suggested that attendees be familiar with the </span><a href="http://doc.qt.io/qt-4.8/object.html" style="text-decoration: none;"><span style="background-color: transparent; color: #1155cc; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;">Objects</span></a><span style="background-color: transparent; color: #222222; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"> and JavaScript.</span></div></li><li dir="ltr" style="background-color: transparent; color: #222222; font-family: Georgia; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; list-style-type: disc; margin-left: 11pt; text-decoration: none; vertical-align: baseline;"><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; color: #222222; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">We recommend that the attendees install the </span><a href="https://www.qt.io/download/" style="text-decoration: none;"><span style="background-color: transparent; color: #1155cc; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;">Qt Creator</span></a><span style="background-color: transparent; color: #222222; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"> which includes Qt libraries and compatible compiler. Make sure you are able to build your first "Hello World" project successfully.  </span></div></li></ul><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: white; color: #222222; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">On a side note, please keep in mind of the following advise:</span></div><ul style="margin-bottom: 0pt; margin-top: 0pt;"><li dir="ltr" style="background-color: transparent; color: black; font-family: Arial; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; list-style-type: disc; text-decoration: none; vertical-align: baseline;"><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; color: black; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Although we do have access to the internet</span><span style="background-color: white; color: #222222; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"> for all participants, it is always advised to carry a Data Card or Mobile Internet as a Backup. </span></div></li><li dir="ltr" style="background-color: transparent; color: black; font-family: Georgia; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; list-style-type: disc; text-decoration: none; vertical-align: baseline;"><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; color: black; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Do carry power strip and bring your Laptop Fully charged.</span></div></li></ul><br /><br /><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; color: black; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Hope this workshop helps all the participants to get started with building their own QML-JS applications.</span></div></div>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>FOSSASIA SUMMIT 2017 and KDE</title>
-	  <link>//fossasia-summit-2017-and-kde</link>
-	  <author>Anu Mittal</author>
-	  <pubDate>2017-06-20T01:13:00+00:00</pubDate>
-	  <guid>//fossasia-summit-2017-and-kde</guid>
-	  <description><![CDATA[
-	     <div dir="ltr"  trbidi="on"><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><div class="separator" style="clear: both; text-align: center;"><a href="https://4.bp.blogspot.com/-r_g5JvVgUn4/WU4TGIlu9VI/AAAAAAAAcR0/xcC72kS1--Y-q3fhADg74FzmvFMdJ-LDwCLcBGAs/s1600/fossasia17.jpeg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="622" data-original-width="1600" height="155" src="https://4.bp.blogspot.com/-r_g5JvVgUn4/WU4TGIlu9VI/AAAAAAAAcR0/xcC72kS1--Y-q3fhADg74FzmvFMdJ-LDwCLcBGAs/s400/fossasia17.jpeg" width="400" /></a></div><br /><br />I got an opportunity to represent KDE in FOSSASIA 2017 held in mid-March at Science Center, Singapore. There were many communities showcasing their hardware, designs, graphics, and software.</div><div style="text-align: justify;"><br /></div><table cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="https://3.bp.blogspot.com/-vVVbsE9UQ5o/WUhfTDCe4yI/AAAAAAAAcJo/HKioA6KmvkISrgdJFQC573HLBA282lFLgCLcBGAs/s1600/IMG_20170317_105342.jpg" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="1600" data-original-width="949" height="320" src="https://3.bp.blogspot.com/-vVVbsE9UQ5o/WUhfTDCe4yI/AAAAAAAAcJo/HKioA6KmvkISrgdJFQC573HLBA282lFLgCLcBGAs/s320/IMG_20170317_105342.jpg" width="188" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">&nbsp;Science Center, Singapore</td></tr></tbody></table><div style="text-align: justify;">I talked about KDE, what it aims at, what are the various programs&nbsp;that KDE organizes to help budding developers, and how are these mentored. I walked through all the necessities to start contributing in KDE by introducing the audience to KDE Bugzilla, the IRCs channels, various application Domains, and the SoK(Season of KDE) proposal format.&nbsp;</div><div style="text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: justify;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href="https://4.bp.blogspot.com/-rlC23nTTlyk/WUhfmGZJhaI/AAAAAAAAcJs/7edf0RKXHdg7dXwzurQo-UYfMzuMyF-nwCLcBGAs/s1600/IMG_20170318_155222.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="900" data-original-width="1600" height="180" src="https://4.bp.blogspot.com/-rlC23nTTlyk/WUhfmGZJhaI/AAAAAAAAcJs/7edf0RKXHdg7dXwzurQo-UYfMzuMyF-nwCLcBGAs/s320/IMG_20170318_155222.jpg" width="320" /></a></div><div class="separator" style="clear: both; text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: justify;">Then I shared my journey in KDE, briefed about my projects under Season of KDE and Google Summer of Code. The audience were really enthusiastic and&nbsp;curious to start contributing in KDE. I sincerely thank FOSSASIA for giving me this wonderful opportunity.</div><br />Overall&nbsp;working&nbsp;in KDE has been a very enriching experience. I wish to continue contributing in KDE and also share my experiences to help the budding developers to get started.<br /><div style="text-align: justify;"><br /></div></div>
 
 	  ]]></description>
 	</item>

@@ -12,182 +12,154 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
-	  <title>Akademy 2019 - Milano, Italy</title>
-	  <link>//Akademy-2019</link>
+	  <title>KDE and getting started with Season of KDE</title>
+	  <link>//KDE-Season-of-KDE</link>
 	  <author>Anu Mittal</author>
-	  <pubDate>2019-09-13T20:30:00+00:00</pubDate>
-	  <guid>//Akademy-2019</guid>
+	  <pubDate>2019-07-29T11:40:00-07:00</pubDate>
+	  <guid>//KDE-Season-of-KDE</guid>
 	  <description><![CDATA[
-	     <p>Another successful event of Akademy held in Milan, Italy this year(2019). As always, I feel it was a great catch up with the fellow KDE contributors. Contributors not just limited to technical domain but also from various other domains like Translation, Promotion, documentation, etc.</p>
+	     <p><br /></p>
 
-<p><img src="/assets/images/Akademy2019/groupphoto.jpg" alt="Akademy 2019 group photo" /></p>
+<p>KDE stands for <strong>K Desktop Environment</strong>. It is a desktop environment for Linux based operation system. You can think KDE as a GUI for Linux OS. KDE has proved Linux users to make it use as easy as they use windows. KDE provides Linux users a graphical interface to choose their own customized desktop environment.</p>
 
-<p>As <a href="https://conf.kde.org/en/akademy2019/public/events">scheduled</a>, day1 - 7th Sept and day2 - 8th Sept had a lot of talks on the on-going and upcoming projects. One of the most important talks of the event was “KDE’s Goals” hosted by Lydia, Neofytos and Ivan, which was an interactive session on what have we achieved in the last year and what will be KDE’s next year’s goals.</p>
+<p><strong>Why KDE?</strong>
+<br /></p>
+<blockquote>
+  <p><strong>Integration</strong>: KDE is well integrated with many applications of all kinds. Applications do not have to be written specifically for KDE, and all of the applications that are typically part of the GNOME desktop also work just fine in KDE <br />
+<strong>Looks</strong>: I like the many ways in which I can change the look of the KDE Plasma workspace. Sometimes we like to set colours and looks to suit our moods. Icons, widgets, fonts, pointers, the window decorations, and much more can also be changed, and you can download and install new ones if those already installed are not right for you. <br />
+<strong>Flexibility</strong>: KDE allows me to define the functions of the mouse buttons, how windows behave, and how to deal with new devices that are plugged in such as whether to mount them if they are storage devices and which applications to open automatically.
+<br /></p>
+</blockquote>
 
-<p>After the last year’s goal revolving around Privacy, Onboarding, Usability and Productivity, there was voting for picking the new goals. The list of prospective goals and selected ones are listed <a href="https://phabricator.kde.org/tag/goal_setting_2019/">here</a>
-<img src="/assets/images/Akademy2019/Akadmey.png" alt="" /></p>
+<p>And here is where the GUI desktop combines with the CLI to enhance user exp. The feature I find most useful is the fact that the Konsole window allows for multiple tabs with a separate terminal session in each tab.</p>
 
-<p>This year, I was not only an attendee and a speaker but also volunteered for session chairing, video operations, and helped at the info desk.
-<img src="/assets/images/Akademy2019/volunteer.png" alt="" /></p>
+<p>It took me by surprise, how huge the KDE community is and how flawlessly this team works co-operating on development and distribution of Free, Open Source Software for desktop and portable computing. It is an amazing community with more than 50 million users, where people can freely download and use an app or
+can read the source code, learn, grow and contribute.
+<br />
+And the best part is for contributing in KDE and become a part of you need not necessarily be a developer, There are many different ways you can become part of this,</p>
 
-<p><img src="/assets/images/Akademy2019/Labplot2019.png" alt="Talk on Labplot" />
-<img src="/assets/images/Akademy2019/labplot2.4.png" alt="" /></p>
+<ul>
+  <li><strong>Development</strong>: If you like coding and want to work on a project to add new features or resolve any bug,  collaborating with people from all around the world.</li>
+  <li><strong>Translation</strong>: If you are good at multiple communicating language, you can help KDE in globalizing by translating texts of KDE software</li>
+  <li><strong>Art</strong>: if you have got artistic skills and like creating new images and theme, a large audience of KDE are keen to see your artwork</li>
+  <li><strong>Documentation</strong>: if you wish to help users to understand how to use the software and keep text files up to date</li>
+  <li><strong>Promotion</strong>: if you want to be part of a flexible team which spreads the word of KDE to expand its user range</li>
+  <li><strong>KDE bug squad</strong>: By keeping track of incoming bug reports, verifying them, improving them and cleaning them up, you will help developers figure out what bugs they need to work on and help them get the information they need to fix them.</li>
+</ul>
 
-<p>Like every year, we had a <a href="https://akademy.kde.org/2019/program">week</a> of BoFs (Bird of Feather), Workshops, Meetings, Daytrip and Training.</p>
+<p>Do check out the <a href="https://community.kde.org/Get_Involved">KDE Community Wiki</a> for more details.
+<br /><br /></p>
 
-<p>There is great news from one of the BoF on KDE India. For all the buddy developers or open-source enthusiast, conf.kde.in will be held from 17th January 2020 to 19th January 2020, in Delhi, India. The call for papers is open and you can find more details on <a href="https://dot.kde.org/2019/10/17/confkdein-coming-back-2020">conf.kde.in</a></p>
+<p>KDE has many application domains which can be categorized as</p>
 
-<p>I am thankful to KDE for sponsoring my travel and congratulate the team on successfully hosting such a productive conference to gather contributors from all around the globe.</p>
+<p><br />1. <strong>KDE - Development</strong></p>
+<ul>
+  <li>e.g. KDevelop IDE for CPP files KDiff3 and Kompare creating diff patch</li>
+</ul>
 
-<p><img src="/assets/images/Akademy2019/SocialEvent.png" alt="SocialEvent" width="50%" />
-<img src="/assets/images/Akademy2019/Valorie.png" alt="favorite lady" width="50%" /></p>
+<p><br />2. <strong>KDE - Education</strong></p>
+<ul>
+  <li>e.g. Kalzium for chemistry     Kletters for alphabet edu   KAlgebra for maths</li>
+</ul>
 
-<p>As always, I would like to encourage my readers to start or keep contributing to open source projects and to get started with KDE you can read my <a href="https://anumittal.in/KDE-Season-of-KDE">previous blog</a> or <a href="https://community.kde.org/Get_Involved">getting involve page</a></p>
+<p><br />3. <strong>KDE - Games</strong></p>
+<ul>
+  <li>e.g. KDiamond: Three-in-a-row game    KPatience: Patience Card Game            KSudoku: Sudoku Game</li>
+</ul>
 
+<p><br />4. <strong>KDE - Graphics</strong></p>
+<ul>
+  <li>e.g. KPhotoAlbum    Photo Album    KolourPaint Paint Program  <br />
+Karbon Scalable Graphics</li>
+</ul>
 
-	  ]]></description>
-	</item>
+<p><br />5. <strong>KDE - Internet</strong></p>
+<ul>
+  <li>e.g. KNode News Reader    KRDC Remote Desktop Client    KGet Download Manager</li>
+</ul>
 
-	<item>
-	  <title>Akademy 2018, Vienna</title>
-	  <link>//akademy-vienna</link>
-	  <author>Anu Mittal</author>
-	  <pubDate>2018-10-02T18:40:00+00:00</pubDate>
-	  <guid>//akademy-vienna</guid>
-	  <description><![CDATA[
-	     <!--[Campus][akademy-campus]-->
-<p><img src="/assets/images/campus.JPG" alt="Campus" width="100%" />
-This year Akademy (an annual world summit of KDE) was held in a beautiful city Vienna, Europe during the late second and third week of August.</p>
+<p><br />6. <strong>KDE - Multimedia</strong></p>
+<ul>
+  <li>e.g. KMPlayer Media Player    KsCD CD Player    KMix Sound Mixer</li>
+</ul>
 
-<p>Akademy like every year had many interesting talks and bofs scheduled</p>
+<p><br />7. <strong>KDE - Office</strong></p>
+<ul>
+  <li>e.g. Kontact Personal Information Manager        KOrganizer Personal Organizer
+Plan Project Management</li>
+</ul>
 
-<!--[Akademy talks][akademy-talks]-->
-<p><img src="/assets/images/AnuKDE.JPG" alt="talks" width="100%" />
-My talk was scheduled on the first day of the event where I talked on Kontainerzing KDE.</p>
+<p><br />8. <strong>KDE - System</strong></p>
+<ul>
+  <li>e.g. Konsole Terminal     Dolphin File Manager    KSystemLog  System Log Viewer</li>
+</ul>
 
-<!--![Presentation on Docker][akademy-docker]-->
-<p><img src="/assets/images/dockerPPT.png" alt="dockerPPT" width="100%" />
-The talk began with a general introduction to Containerization technologies and why we need it. Followed by how we have used Docker and flatpak at KDE.</p>
+<p><br />9. <strong>KDE - Utilities</strong></p>
+<ul>
+  <li>e.g. KCalc Scientific Calculator     KJots Note Taker     KTimer Countdown Launcher
+KFileReplace Search &amp; Replace Tool</li>
+</ul>
 
-<p>The presentation is available <a href="https://docs.google.com/presentation/d/1LdtW9T0pT2t6RS0c0X7qbXzhjT1v8GvFPARuBtlCGoY/edit?usp=sharing">here</a></p>
+<p>There are more than 200 applciations in the KDE domain, refer the list <a href="https://www.kde.org/applications/">here</a>
+<br /><br /></p>
 
-<p>Summary of each day at Akademy:
-Day 1: <a href="https://dot.kde.org/2018/08/12/akademy-2018-day-1">https://dot.kde.org/2018/08/12/akademy-2018-day-1</a>
-Day 2: <a href="https://dot.kde.org/2018/08/12/akademy-2018-day-2">https://dot.kde.org/2018/08/13/akademy-2018-day-2</a>
-Day 3: <a href="https://dot.kde.org/2018/08/14/akademy-2018-monday-bof-wrapup">https://dot.kde.org/2018/08/14/akademy-2018-monday-bof-wrapup</a>
-Day 4: <a href="https://dot.kde.org/2018/08/14/akademy-2018-tuesday-bof-wrapup">https://dot.kde.org/2018/08/14/akademy-2018-tuesday-bof-wrapup</a></p>
+<p><strong>What is Season of KDE?</strong>
+<br />
+Season of KDE is a community outreach program that has been hosted by the KDE community for nine years straight, wherein contributors across the globe participate, learn and develop together. This season of KDE is of about 4 months. student or the budding contributors and mentor application submission begin in December. Before submitting the proposal, students are expected to have a clear understanding of the project and idea. The first month of the programme is communicating period where students exchange ideas with the expected mentor, through IRCs and mailing lists. Mentor verifies the feasibility of the idea. In case you are not able to come up with your new idea, SoK idea page has few projects mentioned there, if you find any of those ideas interesting, you are supposed to first understand the project and the idea and then start connecting with the mentor mentioned along with the idea.
+Mentor of SoK is always available for any kind of help you need, you are first expected to ask your queries in an appropriate mailing list or IRC and in case you are unable to find a satisfactory answer or suggestions from there, you can drop a mail to you,, mentor, and there will definitely be a reply within 24 hours, which is mostly expected as there may be time zone difference between your location and your mentor’s.
+ <br />
+Purpose of the SoK programme is to support as many new budding developers as interested, to begin with, FOSS contribution with perfect mentorship, delivering the best experience of being a part of a big community like KDE, with exciting goodies like T-shirt and certificate.
+It is managed by the same team of admins and mentors that takes care of Google Summer of Code and Google Code-in matters for KDE, so we can say it is very much like Google Summer of Code
+<br />
+<strong>Why SoK:</strong>
+<br /></p>
+<ul>
+  <li>Flexible timeline</li>
+  <li>Best Mentorship</li>
+  <li>Goodies</li>
+  <li>Certificate</li>
+  <li>Experience</li>
+  <li>Exposure
+<br />
+<strong>Getting started with SoK/contributing to any of the projects in KDE?</strong>
+<br />
+It is highly recommended for you to first go through some of the applications you like and look at the technologies used, which mostly are CPP, Qt and QML. Refer <a href="https://techbase.kde.org/Contribute">link</a> which provides all the information about:</li>
+  <li>Mailing List/ News</li>
+  <li>Reporting bugs</li>
+  <li>
+    <p>Coding.
+<br />
+Now let’s study each if the process a little more in detail:</p>
+  </li>
+  <li><strong>First</strong>: <em>how to subscribe to the mailing lists, What are the norms and where can you find the news feeds (The Dot)</em>
+<br />
+As already mentioned mailing lists are the best way to know the current status of any
+The project, new features being added and contributions being made currently, it is very much similar to personal e-mail communications with more than one recipient, where you will be getting the notification periodically acc to the span that you opt for daily or weekly.
+https://mail.kde.org/mailman/listinfo
+Click on the list name and subscribe by entering your email id, and you will get the mail in as forums.
+ <br /></li>
+  <li><strong>Second</strong>: <em>How to report bugs</em>(search if it already exist or file new bug), create a new account of not already present, <em>Review board</em> software for performing reviews on code changes where everyone can cross-check the changes and is approved by the team.
+ <br /></li>
+  <li><strong>Third</strong>: <em>Getting started with the coding- <a href="https://techbase.kde.org/Development/Tutorials">C++, Qt</a></em>
+ <br />
+C++ is the core technology being used in most of the projects under any domains, so you are not comfortable with it, it is highly recommended to first learn and how the structure and syntax of C++ language.
+Qt is a cross-platform framework with tools designed to streamline the creation of applications and user interfaces. KDE Frameworks is a collection of libraries and software frameworks by KDE that serve as the technological foundation for KDE Plasma 5 and KDE Applications</li>
+</ul>
 
-<!--[Best part of Akademy][akademy-humans]-->
-<p><img src="/assets/images/akademy2018.jpg" alt="humans" width="100%" />
-It was a great experience to meet active contributor of KDE all around the globe and learn more about the insights. During the KDE India bof, we discussed how we can get more contributors on board and get the most out of conf.kde.in 2019.</p>
+<p><em>The format of projects proposal should be in this</em>
+<!--SoKProposalFormat--></p>
 
-<p>Looking forward to seeing more contributors in India in the conf.kde.in next year.</p>
+<p><br />
+find a project that interests you, look at the technologies used, and understand the idea of the project, If you are comfortable with those, you can clone the source code and install the app by referring: Framework/Building. It covers everything from building the framework to configuring file and run-time setup.
+It would be easier to use some library for an actual project. Over time, you will find missing features that could be useful. Or if you find a bug you can report them or try fixing previously listed bugs which can be found on KDE Bug tracking System Main Page.</p>
 
-<p>PS. Call for Hosts for Akademy 2019 is still open. For more, check <a href="https://dot.kde.org/2018/05/15/akademy-2019-call-hosts">here</a></p>
+<p>Or if you have an idea of any new functionality that can be added or any new feature, you can go to the mailing list of that specific application, propose the ideas and also get to know more about the developments going under that application.
+If you don’t get help from there then you can at any time mail your queries on kde-devel@kde.org and you will get a reply within 24 hours.</p>
 
+<p>If you are not familiar with the technologies or you get stuck anywhere, you can read blogs and tutorials, ask for help on the mailing list or IRC, ping the contributors. always Ask. Do not hesitate. Not even once. If needed ask again enlightening any specific part of your query.</p>
 
-	  ]]></description>
-	</item>
+<p>Once you are done with the setup and know well enough about a project you can contact a mentor for the same. You can talk about your idea on IRC or mailing list interested mentor will get in touch and then you can get started with your project.</p>
 
-	<item>
-	  <title>LinuxChix Meet up experience!</title>
-	  <link>//linuxchix-meet-up-experience</link>
-	  <author>Anu Mittal</author>
-	  <pubDate>2017-09-17T18:40:00+00:00</pubDate>
-	  <guid>//linuxchix-meet-up-experience</guid>
-	  <description><![CDATA[
-	     <div dir="ltr"  trbidi="on">Hi all,<br /><br />Today I got an opportunity to celebrate Linux's 26th anniversary (17th September 1991) with the LinuxChix India team (<a href="http://india.linuxchix.org/">http://india.linuxchix.org/</a>).<br /><br />I gave a talk on:<br /><br /><ul ><li>Unix, GNU, and &nbsp;Linux's history&nbsp;</li><li>And shared my experience using Linux, Ubuntu, and Kubuntu</li></ul><br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="https://4.bp.blogspot.com/-xtJqJqHepf8/Wb6-glYazhI/AAAAAAAAsBk/2PU2-f13wPwio2a_7c3o1oYGIHG2L9BsgCLcBGAs/s1600/linux.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="720" data-original-width="1107" height="257" src="https://4.bp.blogspot.com/-xtJqJqHepf8/Wb6-glYazhI/AAAAAAAAsBk/2PU2-f13wPwio2a_7c3o1oYGIHG2L9BsgCLcBGAs/s400/linux.jpg" width="400" /></a></div><br />It was a great interactive session. We shared some thoughts about:<br /><br /><ul ><li>SSH's working</li><li>Linux&nbsp;distributions</li><li>Flavours of Ubuntu</li><li>Kubuntu, KDE Plasma 5 and KDE frameworks,&nbsp;</li><li>Linux file system&nbsp;</li><li>Kernels and its role</li><li>Various Linux Commands</li></ul><br />I would like to thank Shivani Bhardwaj and Priyal Trivedi for organising the meetup and Amit Kumar for introducing me to the team.<br /><br />Link to the slides of my talk:<br /><a href="https://drive.google.com/file/d/0B9XiOPGG2l_vcTNNcEVhVjV1RnM/view?usp=sharing">https://drive.google.com/file/d/0B9XiOPGG2l_vcTNNcEVhVjV1RnM/view?usp=sharing</a><br /><div class="separator" style="clear: both; text-align: center;"><span id="goog_181807117"></span></div></div>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>Akademy 2017 -  A wonderful experience</title>
-	  <link>//akademy-2017-wonderful-experience</link>
-	  <author>Anu Mittal</author>
-	  <pubDate>2017-08-16T20:30:00+00:00</pubDate>
-	  <guid>//akademy-2017-wonderful-experience</guid>
-	  <description><![CDATA[
-	     <p><strong>Hola Amigos!</strong><br /><br />
-<strong>Akademy 2017</strong> was such a great experience, that I would love to share with you all in this post. <br /> For those who are unaware about Akademy, it’s an annual <a href="https://akademy.kde.org">world summit of KDE</a>.
-<br /> This year, Akademy was held in <strong>Almeria, Spain</strong>.
-&gt;Akademy features a 2-day conference with presentations on the latest KDE developments, followed by 4 days of workshops, Birds of a Feather (BoF) and coding sessions.
-<br />There are so many interesting talks given by some real tech enthusiasts, who are amiable and super cool. It is a great opportunity to meet people in person whom you have been communicating just knowing their IRC nickname.<br /><br />So, as mentioned it started with some really interesting presentations on <em>Plasma desktops, Plasma mobile, Ruqola, digiKam, WikiData, GCompris, KIO library, Calligra, KDE neon, Slimbook, Translating Challenges</em>, and many more. We were fortunate to have <strong>Robert Kaye</strong> and <strong>Antonio Larrosa</strong> as our keynote speaker. These presentations were followed by BoF sessions and Workshops.<br /><br /><strong>I conducted a workshop on Qt Quick Control 2</strong>, <em>Paul Brown</em> had some awesome stuff to share on what data should be visible to a viewer who visits your site or uses your product. Parallelly there was a BoF session, where the team brainstormed on Plasma mobile and Plasma vision.<br /><br />It was such pleasure to meet <em>Valorie, Aleix Pol, Albert, Lydia, John Samuel, David, Timothee, Vasudha, Jonathan</em> and so many more active contributes of KDE.<br />[Memories of Akademy 2017]
-&gt;<strong>How is KDE Akademy different than conf.kde.in?</strong><br />I have been a part of <a href="conf.kde.in">KDE India conference</a> held in Jaipur in 2016. Which looked like this: <br /> When you see this, you find so many students, keen to learn about <em>FOSS and KDE community</em>. <br /> All are budding developers with some spark and unexplored ideas in their mind. So such type of conferences held by KDE in India help these unexplored ideas to come into execution by using and developing features in the various softwares build by KDE developers. <br /> Whereas, when you look at these bunch of developers here in this picture: <br /> This is the group photograph of Akademy 2017 attendees. They are the backbone of all softwares in KDE, expert and deeply involved in contributing in KDE.</p>
-
-<p><br /><em>I would like to thank KDE for giving me this opportunity. It has added great experience and wonderful memories to my journey of foss development</em> <br /><br />PS. Help make KDE apps and Plasma easier to use, more convenient and accessibl by supporting <a href="https://dot.kde.org/2017/08/08/randa-meetings-2017-its-all-about-accessibility">#Randa2017</a></p>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>Akademy 2017</title>
-	  <link>//akademy-2017</link>
-	  <author>Anu Mittal</author>
-	  <pubDate>2017-07-11T20:14:00+00:00</pubDate>
-	  <guid>//akademy-2017</guid>
-	  <description><![CDATA[
-	     <div dir="ltr"  trbidi="on"><div class="separator" style="clear: both; text-align: center;"><a href="https://2.bp.blogspot.com/-QibTxHw4d88/WWUZBOerlwI/AAAAAAAAfCA/MeTSjLHSBvIJzq9sPz7G4bh0clXMWMw-gCLcBGAs/s1600/Akademy2017_banner.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="206" data-original-width="840" height="97" src="https://2.bp.blogspot.com/-QibTxHw4d88/WWUZBOerlwI/AAAAAAAAfCA/MeTSjLHSBvIJzq9sPz7G4bh0clXMWMw-gCLcBGAs/s400/Akademy2017_banner.png" width="400" /></a></div><br /><br /><span id="docs-internal-guid-583f1db2-40b7-220c-368a-498bf31af140"></span><br /><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; color: black; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Hi all,</span><span style="background-color: transparent; color: black; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br class="kix-line-break" /></span><span style="background-color: transparent; color: black; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br class="kix-line-break" /></span><span style="background-color: transparent; color: black; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">This blog is to assist participants attending the Conference Akademy 2017 at Almeria, Spain.</span><span style="background-color: transparent; color: black; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br class="kix-line-break" /></span><span style="background-color: transparent; color: black; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">There will be a workshop titled "Playing with the amalgam of QML and JavaScript" conducted by me.</span><span style="background-color: transparent; color: black; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><br class="kix-line-break" /></span><span style="background-color: transparent; color: black; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Timings: 10:30 - 12:15 on 24th July 2017.</span></div><span style="color: #222222; font-family: &quot;verdana&quot; , sans-serif;"><span style="background-color: white; font-size: 12.8px;"><br /></span></span> <span style="color: #222222; font-family: &quot;verdana&quot; , sans-serif;"><span style="background-color: white; font-size: 12.8px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href="http://2.bp.blogspot.com/-JDD7aiWNWs4/WWUvAtL8vDI/AAAAAAAAfCw/ZtRMnSisIecsAHDcjVl-Dbl34kpP8TbJACK4BGAYYCw/s1600/js-qt.png" imageanchor="1"><img border="0" height="141" src="https://2.bp.blogspot.com/-JDD7aiWNWs4/WWUvAtL8vDI/AAAAAAAAfCw/ZtRMnSisIecsAHDcjVl-Dbl34kpP8TbJACK4BGAYYCw/s320/js-qt.png" width="320" /></a></span></span><br /><span style="color: #222222; font-family: &quot;verdana&quot; , sans-serif;"><span style="background-color: white; font-size: 12.8px;"><br /></span></span><br /><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: white; color: #222222; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Instructions for the </span><span style="background-color: white; color: black; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">p</span><span style="background-color: white; color: #222222; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">articipants:</span></div><ul style="margin-bottom: 0pt; margin-top: 0pt;"><li dir="ltr" style="background-color: transparent; color: #222222; font-family: Georgia; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; list-style-type: disc; margin-left: 11pt; text-decoration: none; vertical-align: baseline;"><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; color: #222222; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">The tutorial will only assume a basic knowledge of using Qt Creator [</span><a href="http://doc.qt.io/qtcreator/index.html" style="text-decoration: none;"><span style="background-color: transparent; color: #1155cc; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;">http://doc.qt.io/qtcreator/index.html</span></a><span style="background-color: transparent; color: #222222; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">].</span></div></li><li dir="ltr" style="background-color: transparent; color: #222222; font-family: Georgia; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; list-style-type: disc; margin-left: 11pt; text-decoration: none; vertical-align: baseline;"><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; color: #222222; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">No prior knowledge of QML is required, although it is suggested that attendees be familiar with the </span><a href="http://doc.qt.io/qt-4.8/object.html" style="text-decoration: none;"><span style="background-color: transparent; color: #1155cc; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;">Objects</span></a><span style="background-color: transparent; color: #222222; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"> and JavaScript.</span></div></li><li dir="ltr" style="background-color: transparent; color: #222222; font-family: Georgia; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; list-style-type: disc; margin-left: 11pt; text-decoration: none; vertical-align: baseline;"><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; color: #222222; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">We recommend that the attendees install the </span><a href="https://www.qt.io/download/" style="text-decoration: none;"><span style="background-color: transparent; color: #1155cc; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: underline; vertical-align: baseline; white-space: pre-wrap;">Qt Creator</span></a><span style="background-color: transparent; color: #222222; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"> which includes Qt libraries and compatible compiler. Make sure you are able to build your first "Hello World" project successfully.  </span></div></li></ul><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: white; color: #222222; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">On a side note, please keep in mind of the following advise:</span></div><ul style="margin-bottom: 0pt; margin-top: 0pt;"><li dir="ltr" style="background-color: transparent; color: black; font-family: Arial; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; list-style-type: disc; text-decoration: none; vertical-align: baseline;"><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; color: black; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Although we do have access to the internet</span><span style="background-color: white; color: #222222; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"> for all participants, it is always advised to carry a Data Card or Mobile Internet as a Backup. </span></div></li><li dir="ltr" style="background-color: transparent; color: black; font-family: Georgia; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; list-style-type: disc; text-decoration: none; vertical-align: baseline;"><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; color: black; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Do carry power strip and bring your Laptop Fully charged.</span></div></li></ul><br /><br /><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; color: black; font-family: &quot;georgia&quot;; font-size: 11pt; font-style: normal; font-variant: normal; font-weight: 400; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Hope this workshop helps all the participants to get started with building their own QML-JS applications.</span></div></div>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>FOSSASIA SUMMIT 2017 and KDE</title>
-	  <link>//fossasia-summit-2017-and-kde</link>
-	  <author>Anu Mittal</author>
-	  <pubDate>2017-06-20T01:13:00+00:00</pubDate>
-	  <guid>//fossasia-summit-2017-and-kde</guid>
-	  <description><![CDATA[
-	     <div dir="ltr"  trbidi="on"><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><div class="separator" style="clear: both; text-align: center;"><a href="https://4.bp.blogspot.com/-r_g5JvVgUn4/WU4TGIlu9VI/AAAAAAAAcR0/xcC72kS1--Y-q3fhADg74FzmvFMdJ-LDwCLcBGAs/s1600/fossasia17.jpeg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="622" data-original-width="1600" height="155" src="https://4.bp.blogspot.com/-r_g5JvVgUn4/WU4TGIlu9VI/AAAAAAAAcR0/xcC72kS1--Y-q3fhADg74FzmvFMdJ-LDwCLcBGAs/s400/fossasia17.jpeg" width="400" /></a></div><br /><br />I got an opportunity to represent KDE in FOSSASIA 2017 held in mid-March at Science Center, Singapore. There were many communities showcasing their hardware, designs, graphics, and software.</div><div style="text-align: justify;"><br /></div><table cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="https://3.bp.blogspot.com/-vVVbsE9UQ5o/WUhfTDCe4yI/AAAAAAAAcJo/HKioA6KmvkISrgdJFQC573HLBA282lFLgCLcBGAs/s1600/IMG_20170317_105342.jpg" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="1600" data-original-width="949" height="320" src="https://3.bp.blogspot.com/-vVVbsE9UQ5o/WUhfTDCe4yI/AAAAAAAAcJo/HKioA6KmvkISrgdJFQC573HLBA282lFLgCLcBGAs/s320/IMG_20170317_105342.jpg" width="188" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">&nbsp;Science Center, Singapore</td></tr></tbody></table><div style="text-align: justify;">I talked about KDE, what it aims at, what are the various programs&nbsp;that KDE organizes to help budding developers, and how are these mentored. I walked through all the necessities to start contributing in KDE by introducing the audience to KDE Bugzilla, the IRCs channels, various application Domains, and the SoK(Season of KDE) proposal format.&nbsp;</div><div style="text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: justify;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href="https://4.bp.blogspot.com/-rlC23nTTlyk/WUhfmGZJhaI/AAAAAAAAcJs/7edf0RKXHdg7dXwzurQo-UYfMzuMyF-nwCLcBGAs/s1600/IMG_20170318_155222.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="900" data-original-width="1600" height="180" src="https://4.bp.blogspot.com/-rlC23nTTlyk/WUhfmGZJhaI/AAAAAAAAcJs/7edf0RKXHdg7dXwzurQo-UYfMzuMyF-nwCLcBGAs/s320/IMG_20170318_155222.jpg" width="320" /></a></div><div class="separator" style="clear: both; text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: justify;">Then I shared my journey in KDE, briefed about my projects under Season of KDE and Google Summer of Code. The audience were really enthusiastic and&nbsp;curious to start contributing in KDE. I sincerely thank FOSSASIA for giving me this wonderful opportunity.</div><br />Overall&nbsp;working&nbsp;in KDE has been a very enriching experience. I wish to continue contributing in KDE and also share my experiences to help the budding developers to get started.<br /><div style="text-align: justify;"><br /></div></div>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>Winding up GSoC.</title>
-	  <link>//winding-up-gsoc</link>
-	  <author>Anu Mittal</author>
-	  <pubDate>2016-08-26T16:35:00+00:00</pubDate>
-	  <guid>//winding-up-gsoc</guid>
-	  <description><![CDATA[
-	     <div dir="ltr"  trbidi="on">Time flies, truly. With the end of this month comes the end of such an amazing programme<br />"Google Summer of Code 2016".<br />As planned earlier I have successfully implemented GSL library to construct histogram for both static as well as dynamic input values.<br /><br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="http://2.bp.blogspot.com/-_NbC7Wc_ixE/V8BtP-MMS7I/AAAAAAAALy8/urITgW_7IbkCIBY9gZu4dwNNGSY7nk8VACK4B/s1600/HistogramOption.png" imageanchor="1"><img border="0" height="180" src="https://2.bp.blogspot.com/-_NbC7Wc_ixE/V8BtP-MMS7I/AAAAAAAALy8/urITgW_7IbkCIBY9gZu4dwNNGSY7nk8VACK4B/s320/HistogramOption.png" width="320" /></a><br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="http://3.bp.blogspot.com/-wNtZXjZjTwY/V8BtR5uZm4I/AAAAAAAALzE/2TDpLhNgYq8Lbw7QZIC7hKMG0_4ClASqACK4B/s1600/RandomValuePlotted.png" imageanchor="1"><img border="0" height="180" src="https://3.bp.blogspot.com/-wNtZXjZjTwY/V8BtR5uZm4I/AAAAAAAALzE/2TDpLhNgYq8Lbw7QZIC7hKMG0_4ClASqACK4B/s320/RandomValuePlotted.png" width="320" /></a><br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="http://1.bp.blogspot.com/-0SJmTkuFhQQ/V8BtThyws2I/AAAAAAAALzM/uyAI3D-hXCIaSJtIm4bWRaAl5YJVjCOFACK4B/s1600/ValueFilling.png" imageanchor="1" style="display: inline; margin-left: 1em; margin-right: 1em; text-align: center;"><img border="0" height="180" src="https://1.bp.blogspot.com/-0SJmTkuFhQQ/V8BtThyws2I/AAAAAAAALzM/uyAI3D-hXCIaSJtIm4bWRaAl5YJVjCOFACK4B/s320/ValueFilling.png" width="320" /></a><br /><br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br /><br />Now, a user can <br /><ul ><li>Draw different types of histogram for a given set of values.</li><li>Change the method of selecting the bin value.</li><li>Change background and filling of histogram graph.</li><li>Alter the properties of histogram graph scaling (auto-scale. color, pattern).</li><li>Mark the magnitude of bin ( individual or cumulative).</li><li>Draw/plot more than one curve on same worksheet to enhance the analytic study/comparison.</li></ul><div>Though the programme has come to an end, I will continue contributing in KDE community and LabPlot. I would like to thank all my mentors in Labplot.<br />Working demo:&nbsp;<a href="https://www.youtube.com/watch?v=XHjYvmInXY8&amp;feature=youtu.be">https://www.youtube.com/watch?v=XHjYvmInXY</a></div><div><br /></div><div>Thanks for reading :)</div></div>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>Mid-term post.</title>
-	  <link>//mid-term-post</link>
-	  <author>Anu Mittal</author>
-	  <pubDate>2016-06-30T17:13:00+00:00</pubDate>
-	  <guid>//mid-term-post</guid>
-	  <description><![CDATA[
-	     <div dir="ltr"  trbidi="on"><a href="http://4.bp.blogspot.com/-E6xyE01GqM0/V3VOJURj1GI/AAAAAAAAKls/wG1qY49-V3sgREYfZfpLK0iMd0WQxy-egCK4B/s1600/Screenshot_20160630_221755.png"></a><br /><br /><div >Conquered one more phase. :) I have successfully completed GSoC mid-term evaluation!</div><div ><br /></div><div >My midterm evaluation target was to create a static histogram in Labplot with an option to add new histogram among the given types and set visible advanced settings.</div><div ><br /></div><div >I have added a new histogram dock widget containing the required settings options like selecting number of bins or type of histogram or the color of the plot and much more to be added eventually like settings of the boundary, it's color, style,etc.</div><div ><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-8Wr0AgMDoNY/V3VQFBWZzKI/AAAAAAAAKmI/uxiBkH3SlD4dHyorg0M7nSCalfMAFPvQgCK4B/s1600/Screenshot_20160629_210943.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="173" src="https://1.bp.blogspot.com/-8Wr0AgMDoNY/V3VQFBWZzKI/AAAAAAAAKmI/uxiBkH3SlD4dHyorg0M7nSCalfMAFPvQgCK4B/s320/Screenshot_20160629_210943.png" width="320" /></a></div><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-E6xyE01GqM0/V3VOJURj1GI/AAAAAAAAKls/wG1qY49-V3sgREYfZfpLK0iMd0WQxy-egCK4B/s1600/Screenshot_20160630_221755.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="173" src="https://4.bp.blogspot.com/-E6xyE01GqM0/V3VOJURj1GI/AAAAAAAAKls/wG1qY49-V3sgREYfZfpLK0iMd0WQxy-egCK4B/s320/Screenshot_20160630_221755.png" width="320" /></a></div><div class="separator" style="clear: both; text-align: left;">My next task is to draw the histogram&nbsp;for any (static and dynamic) data set. It's time to implement everything that I have discussed and read about GSL libraries and QPainter.</div><div class="separator" style="clear: both; text-align: left;">Working on a large project like LabPlot is really engaging. A lot of work to be done in the coming up month. :)</div></div>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>Work peroid.</title>
-	  <link>//work-peroid</link>
-	  <author>Anu Mittal</author>
-	  <pubDate>2016-05-31T05:45:00+00:00</pubDate>
-	  <guid>//work-peroid</guid>
-	  <description><![CDATA[
-	     <div dir="ltr"  trbidi="on"><div class="separator" style="clear: both; text-align: left;"></div><div style="text-align: justify;"><span style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 12.8px;"><br /></span></div><div style="text-align: justify;"><span style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 12.8px;">With the beginning of the coding period, I have set up all my accounts ,have read more about Qt5 and GSL libraries,had the discussion about the project with my mentor and finally done with the most boredom job, that is , taking university examinations.</span></div><div style="text-align: justify;"><span style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 12.8px;"><br /></span></div><span style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 12.8px;"><div style="text-align: justify;"><span style="font-size: 12.8px;">I would not forget to share the goodies that I received last week. This cool diary, pen and sticker.</span></div></span><br /><div class="separator" style="clear: both; text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: center;"></div><div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-Jeum8-v4Hvc/V0rUijZHRmI/AAAAAAAAJcU/0ndep2Zt3BkeqlAgbTxMmWaB18R0AgL8ACLcB/s1600/gsocGoodies.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="220" src="https://3.bp.blogspot.com/-Jeum8-v4Hvc/V0rUijZHRmI/AAAAAAAAJcU/0ndep2Zt3BkeqlAgbTxMmWaB18R0AgL8ACLcB/s320/gsocGoodies.jpg" width="320" /></a></div><div class="separator" style="clear: both; text-align: center;"><span style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 12.8px; text-align: justify;">Now I am almost ready with the boilerplate code by adding new options to add a different type&nbsp;of histogram and a bar chart.&nbsp;</span><span style="background-color: white; color: #222222; font-family: arial, sans-serif; font-size: 12.8px; text-align: justify;">My next step would be to add doc widget in the newly added option to include the advanced settings.</span></div><div class="adn ads" style="background-color: white; border-left-color: transparent; border-left-style: solid; border-left-width: 1px; color: #222222; font-family: arial, sans-serif; padding-bottom: 20px; padding-left: 8px;"><div class="gs" style="margin-left: 44px;"><div class="ii gt adP adO" id=":n2" style="direction: ltr; font-size: 12.8px; margin: 5px 15px 0px 0px; padding-bottom: 5px; position: relative;"><div class="a3s aXjCH m155053916cf56a3b" id=":n1" style="overflow: hidden;"><div dir="ltr" style="text-align: justify;"><br /></div><div dir="ltr" style="text-align: justify;"><br /></div><div dir="ltr" style="text-align: justify;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="https://2.bp.blogspot.com/-x_XaZxYtxys/V0rMy1jVCvI/AAAAAAAAJas/ryyZP87rT7YpRt8EzuDyex3dlQuVQCEowCLcB/s1600/newOptions.png" style="font-family: 'Diaria Light Pro', sans-serif; font-size: 15px; margin-left: 1em; margin-right: 1em; text-align: center;"><img border="0" height="179" src="https://2.bp.blogspot.com/-x_XaZxYtxys/V0rMy1jVCvI/AAAAAAAAJas/ryyZP87rT7YpRt8EzuDyex3dlQuVQCEowCLcB/s320/newOptions.png" width="320" /></a></div></div></div></div></div></div>
-
-	  ]]></description>
-	</item>
-
-	<item>
-	  <title>Google Summer of Code,2016</title>
-	  <link>//google-summer-of-code2016</link>
-	  <author>Anu Mittal</author>
-	  <pubDate>2016-04-23T15:00:00+00:00</pubDate>
-	  <guid>//google-summer-of-code2016</guid>
-	  <description><![CDATA[
-	     <div dir="ltr"  trbidi="on"><div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-9V46SuKNBuI/VxuNy1VRYSI/AAAAAAAAFyo/qL5mPtq48PstUvQSXFTxJL-XrhJrbJB5QCLcB/s1600/google.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="171" src="https://3.bp.blogspot.com/-9V46SuKNBuI/VxuNy1VRYSI/AAAAAAAAFyo/qL5mPtq48PstUvQSXFTxJL-XrhJrbJB5QCLcB/s320/google.png" width="320" /></a></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div dir="ltr" style="margin-bottom: 0pt; margin-top: 0pt;"><span style="font-family: &quot;arial&quot;; font-size: 14.6667px; line-height: 1.38; white-space: pre-wrap;">So, finally, the wait is over. The result of GSoC selections is out and<b> Voila!</b> my proposal has been accepted and is now a GSoC project. </span><span style="font-family: &quot;arial&quot;;"><span style="font-size: 14.6667px; line-height: 20.24px; white-space: pre-wrap;">I would like to thank KDE community, my mentor, and co-mentors for their support and giving me an opportunity to be a part of this programme. I will be working on the project <b><a href="http://labplot.sourceforge.net/" target="_blank">LabPlot </a></b></span></span><span style="font-family: &quot;arial&quot;; font-size: 14.6667px; line-height: 20.24px; white-space: pre-wrap;"><b><a href="http://labplot.sourceforge.net/" target="_blank">(KDEdu)</a></b></span><span style="font-family: &quot;arial&quot;; font-size: 14.6667px; line-height: 20.24px; white-space: pre-wrap;"> which is a KDE-application for interactive graphing and analysis of scientific data. LabPlot provides an easy way to create, manage and edit plots.</span></div><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="font-family: &quot;arial&quot;; font-size: 14.6667px; line-height: 1.38; white-space: pre-wrap;">Beginning with the first phase,&nbsp;</span></div><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; font-family: &quot;arial&quot;; font-size: 14.6667px; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><b><br /></b></span></div><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="background-color: transparent; font-family: &quot;arial&quot;; font-size: 14.6667px; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;"><b>Community bonding period (23rd April &nbsp;to 22rd May)</b></span></div><div dir="ltr" style="margin-bottom: 0pt; margin-top: 0pt;"><span style="font-family: &quot;arial&quot;;"><span style="font-size: 14.6667px; line-height: 20.24px; white-space: pre-wrap;">I would complete the tasks picked earlier in the first week so that I can start working on my project then after. Discussing the complete flow and becoming more familiar with the code style, naming conventions, and project’s requirement will be the major tasks during this phase.  Looking forward to an amazing coding summers. Cheers!    <b>Einstein: "Everything should be made as simple as possible, but not simpler."</b></span></span></div></div>
 
 	  ]]></description>
 	</item>

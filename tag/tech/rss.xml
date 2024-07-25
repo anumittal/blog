@@ -30,16 +30,18 @@ it says:</p>
 
 <p>In order to facilitate and safely manage these additional threads we need a framework like <a href="https://developer.apple.com/documentation/DISPATCH">dispatch</a></p>
 
-<p>✍🏼 <strong>Ways to achieve multithreading:</strong><br />
-- Grand Central Dispatch<br />
-- <a href="https://developer.apple.com/documentation/foundation/thread">NSThread</a><br />
-- <a href="https://developer.apple.com/documentation/foundation/operationqueue">NSOperationQueue</a></p>
+<p>✍🏼 <strong>Ways to achieve multithreading:</strong></p>
+<ul>
+  <li>Grand Central Dispatch</li>
+  <li><a href="https://developer.apple.com/documentation/foundation/thread">NSThread</a></li>
+  <li><a href="https://developer.apple.com/documentation/foundation/operationqueue">NSOperationQueue</a></li>
+</ul>
 
 <p>This blog assumes you have basic understanding of these types.</p>
 
 <p>When it comes to comparing these methods:</p>
 
-<p><code class="highlighter-rouge">Code/Structural Origins:</code></p>
+<p><code class="language-plaintext highlighter-rouge">Code/Structural Origins:</code></p>
 
 <ul>
   <li>GCD is a low-level C-based API.</li>
@@ -47,7 +49,7 @@ it says:</p>
   <li>NSThread is an NSObject (uses pthreads).</li>
 </ul>
 
-<p><code class="highlighter-rouge">Complexity comparison:</code></p>
+<p><code class="language-plaintext highlighter-rouge">Complexity comparison:</code></p>
 
 <ul>
   <li>For GCD implementation is very light-weight</li>
@@ -55,7 +57,7 @@ it says:</p>
   <li>NSThread is just wrapper to pthreads therefore making it lightweight too.</li>
 </ul>
 
-<p><code class="highlighter-rouge">NSOperation advantages over GCD and NSThread:</code><br />
+<p><code class="language-plaintext highlighter-rouge">NSOperation advantages over GCD and NSThread:</code><br />
 You can:</p>
 
 <ul>
@@ -69,12 +71,12 @@ You can:</p>
 
 <p>Once you have decided which methodology you want to use, you need to decide the order and priority of it.</p>
 
-<p><code class="highlighter-rouge">Order of Operation:</code><br />
+<p><code class="language-plaintext highlighter-rouge">Order of Operation:</code><br />
 Queues can be of two type: Serial Queue or Concurrent Queue which runs the tasks synchronously and asynchronously respectively
 <!--[Queues][queuesType]-->
 <img src="/assets/images/multithreadingiOS/queuesType.png" alt="Queues" width="100%" /></p>
 
-<p><code class="highlighter-rouge">Priority of operations:</code><br />
+<p><code class="language-plaintext highlighter-rouge">Priority of operations:</code><br />
 Priority is defined as Quality of Service known as QoS and is of following four types:</p>
 
 <!--[QoS][QoS]-->
@@ -163,10 +165,10 @@ In the sync_sync block, everything happens in the most calmest way. :blush: it p
 
 <p>Syntax:<br />
 <strong>Serial queue:</strong><br />
-<code class="highlighter-rouge">dispatch_queue_t serial_queue = dispatch_queue_create("your.queue.label", DISPATCH_QUEUE_SERIAL);</code></p>
+<code class="language-plaintext highlighter-rouge">dispatch_queue_t serial_queue = dispatch_queue_create("your.queue.label", DISPATCH_QUEUE_SERIAL);</code></p>
 
 <p><strong>Concurrent queue:</strong><br />
-<code class="highlighter-rouge">dispatch_queue_t concurrent_queue = dispatch_queue_create("your.queue.label", DISPATCH_QUEUE_CONCURRENT);</code></p>
+<code class="language-plaintext highlighter-rouge">dispatch_queue_t concurrent_queue = dispatch_queue_create("your.queue.label", DISPATCH_QUEUE_CONCURRENT);</code></p>
 
 <p><strong>Deadlocks</strong><br />
 You should always resist passing same queue (especially a serial queue) to multiple dispatch blocks, as it might lead to deadlock.</p>
@@ -188,7 +190,7 @@ You should always resist passing same queue (especially a serial queue) to multi
 <img src="/assets/images/multithreadingiOS/smallestDeadlock.png" alt="smallestDeadlock" width="100%" />
 This is claimed to be the shortest code to create a deadlock. I hope by now you must be able to think in the direction to answer as to why would this create a deadlock.</p>
 
-<p><code class="highlighter-rouge">Hint:</code> main queue is a serial queue, this code is trying to dispatch the new code block synchronously on the same queue which is running &amp; waiting on the dispatch_sync.</p>
+<p><code class="language-plaintext highlighter-rouge">Hint:</code> main queue is a serial queue, this code is trying to dispatch the new code block synchronously on the same queue which is running &amp; waiting on the dispatch_sync.</p>
 
 <p>If this all feels little overwhelming then it’s ok. The more you try out examples the easier it is to understand. Please let me know if you would like to learn any of these topics more in detail.
 You can find the project on my <a href="https://github.com/anumittal/multithreading-iOS">github</a>.</p>

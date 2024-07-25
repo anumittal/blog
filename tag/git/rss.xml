@@ -15,13 +15,13 @@
 	  <title>Meaningful commit messages</title>
 	  <link>//meaningful-commit-messages</link>
 	  <author>Anu Mittal</author>
-	  <pubDate>2018-04-02T18:40:00+00:00</pubDate>
+	  <pubDate>2018-04-02T11:40:00-07:00</pubDate>
 	  <guid>//meaningful-commit-messages</guid>
 	  <description><![CDATA[
-	     <p>A short note, your git <strong>commit messages</strong> should start with <code class="highlighter-rouge">Fix</code> or <code class="highlighter-rouge">Add</code> instead of <code class="highlighter-rouge">Fixed</code> or <code class="highlighter-rouge">Added</code>.
+	     <p>A short note, your git <strong>commit messages</strong> should start with <code class="language-plaintext highlighter-rouge">Fix</code> or <code class="language-plaintext highlighter-rouge">Add</code> instead of <code class="language-plaintext highlighter-rouge">Fixed</code> or <code class="language-plaintext highlighter-rouge">Added</code>.
 <br /> It should fit well in:</p>
 
-<p><strong>When merged/applied, this patch/commit will</strong> <code class="highlighter-rouge">&lt;commit message&gt;</code></p>
+<p><strong>When merged/applied, this patch/commit will</strong> <code class="language-plaintext highlighter-rouge">&lt;commit message&gt;</code></p>
 
 <p>Example:
 <br />
@@ -41,7 +41,7 @@
 	  <title>Learning GIT.</title>
 	  <link>//learning-git</link>
 	  <author>Anu Mittal</author>
-	  <pubDate>2016-02-23T18:16:00+00:00</pubDate>
+	  <pubDate>2016-02-23T10:16:00-08:00</pubDate>
 	  <guid>//learning-git</guid>
 	  <description><![CDATA[
 	     <div dir="ltr"  trbidi="on"><div style="margin-bottom: .0001pt; margin: 0in;"><span style="font-family: &quot;georgia&quot; , &quot;serif&quot;;">Follow&nbsp;<span style="background-color: white;"><a href="http://rogerdudler.github.io/git-guide/" target="_blank"><span style="color: #6aa84f;">http://rogerdudler.github.io/git-guide/</span></a><span style="color: #6aa84f;">&nbsp;</span></span>in order to get familiarized with the basics of git commands in the easiest manner.</span></div><div style="margin: 0in 0in 0.0001pt;"><br /></div><div style="margin: 0in 0in 0.0001pt;"><span style="font-family: &quot;georgia&quot; , &quot;serif&quot;;">In order to know more about version control and history of git you can go through<br /><a href="https://git-scm.com/book/en/v1/Getting-Started" target="_blank"><span style="color: #6aa84f;">https://git-scm.com/book/en/v1/Getting-Started</span></a>&nbsp;</span><br /><span style="font-family: &quot;georgia&quot; , &quot;serif&quot;;"><br /></span><span style="font-family: &quot;georgia&quot; , serif;">Git allows more than one person to safely work on the same project without interfering with each other's work.</span><br /><span style="font-family: &quot;georgia&quot; , serif;"><br /></span></div><div style="margin: 0in 0in 0.0001pt;"><span style="font-family: &quot;georgia&quot; , &quot;serif&quot;;">Implement these commands by first creating an account on&nbsp;<a href="https://github.com/" style="font-family: Georgia, 'Times New Roman', serif;" target="_blank"><span style="color: #6aa84f;">https://github.com/</span></a>&nbsp;and pushing any of your own projects.You can then play with commands, just make sure you are not messing up with the master branch. :D</span></div><div style="margin: 0in 0in 0.0001pt;"><br /></div><div style="margin: 0in 0in 0.0001pt;"><span style="color: #ffe599; font-family: &quot;georgia&quot; , &quot;serif&quot;;"><a href="https://www.unleashed-technologies.com/blog/2014/08/01/what-github-and-how-can-it-benefit-your-development-team" target="_blank">Why GitHub?</a></span></div><div style="margin: 0in 0in 0.0001pt;"><br /></div><div style="margin: 0in 0in 0.0001pt;"><span style="font-family: &quot;georgia&quot; , &quot;serif&quot;;">Video tutorials :&nbsp;<a href="https://git-scm.com/videos" target="_blank"><span style="color: #6aa84f;">https://git-scm.com/videos</span></a></span></div><div style="margin: 0in 0in 0.0001pt;"><span style="font-family: &quot;georgia&quot; , &quot;times new roman&quot; , serif;"><br /></span></div><div style="margin: 0in 0in 0.0001pt;"><span style="font-family: &quot;georgia&quot; , &quot;times new roman&quot; , serif;">Good Luck and keep sharing your code ;)&nbsp;</span></div><br /><div class="MsoNormal"><br /></div></div>
